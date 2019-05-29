@@ -1,3 +1,3 @@
 # Bi621-PS6
 
-Due by 11:59 PM, Friday, July 20th.
+Due by 11:59 PM, Friday, July 19, 2019.
