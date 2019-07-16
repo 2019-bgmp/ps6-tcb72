@@ -1,37 +1,19 @@
-###***UNIT TEST MANUAL RESULTS***###
-
-#SEE: Unit_test.fa
-
-#N50
-#sorted sequence (descending) below
-#TTCGACGTTCGACGTTCGACGTTCGACGTTCGACGTTCGACGTTCGACGTTCGACGTTCGACGTTCGACGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGAGCTGAGCTGAGCTGAGCTGAGCTGAGCTGAGCTGAGCTGAGCTGAGCTGAGCT
-# total length of 182
-# N50 is at 91st nucleotide
-# 91st nucleotide is in the second sequence
-# length of second sequence is 57
-# therefore, N50 is 57.
-
-#maximum contig length
-#max of 70, 55, 57, so max is 70.
-
-#mean contig length
-#mean is (70+55+57) / 3, which is approximately 60.67
-
-#total length
-#total length is 70 + 55 + 57, which is 182.
-
-#number of contigs
-#number of contigs is 3
-
-#mean depth of coverage
-#coverage for single contig is Ck * L / (L - Lk + 1) where L is physical length
-#first: L is 70, Ck is 19.4929384, Lk is 49. Plug that in, C = 62.02
-#second: L is 55, Ck is 52.4303022, Lk is 49. Plug that in, C = 411.95
-#third: L is 57, Ck is 43.1929483, Lk is 49. Plug that in, C = 273.55
-#average: (62.02+411.95+273.55)/3 = 249.173
-###************************************###
-
 import re
+import argparse
+def get_args():
+    # set parser
+    parser = argparse.ArgumentParser(description='A program to complete PS6.')
+    # -k will be for kmer_length, must be int
+    parser.add_argument('-k', '--kmer_length', type=int, help = 'How long you want the kmer size to be.')
+    # -f will be for filename, must be string
+    parser.add_argument('-f','--filename', type=str, help = 'Filename of your contigs.fa file.')
+    # parse the user input
+    args = parser.parse_args()
+    # get filename and kmer length out
+    filename = args.filename
+    kmer_length = args.kmer_length
+    #return args in array
+    return(filename, kmer_length)
 
 def get_physical_lengths(filename, KMER_LENGTH):
     physical_lengths = []
@@ -142,8 +124,7 @@ def get_contig_dist(filename):
 
 
 def main():
-    filename = '/gpfs/projects/bgmp/tbiondi/k49/contigs.fa'
-    KMER_LENGTH = 49
+    filename, KMER_LENGTH = get_args()
     num_contigs = get_num_of_contigs(filename)
     print('\n********************')
     print('Processed ' + filename + '\n')
