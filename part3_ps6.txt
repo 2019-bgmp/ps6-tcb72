@@ -1,0 +1,28 @@
+1. As kmer length increases:
+
+-Number of contigs decreases
+-Total length decreases
+-Mean contig length increases
+-Mean depth of coverage increases
+-N50 increases
+
+Increasing kmer length causes a much flatter distribution. This is because
+the total amount of contigs decreases as kmer length increases.
+
+2. As coverage cutoff goes up (auto was ~16x):
+-Number of contigs decreases
+-Total length decreases
+-Mean contig length increases
+-Mean depth of coverage increases
+-N50 increases
+
+With respect to the de Bruijin graph, it essentially cuts off any node in which the coverage for that
+particular contig is less than the limit that we set.
+
+Auto is calculated by taking the weighted median contig coverage depth, then dividing that by 2.
+In our case, it was approximately 16.87x.
+
+3. Increasing minimum contig length will create a much flatter distribution since you are
+artificially cutting out more and more contigs. It will also increase N50, because
+N50 is directly proportional to average contig length. By artificially selecting
+higher and higher contig lengths, you are also artificially increasing N50.

@@ -13,7 +13,6 @@ def make_graphs(out_file):
     end_indexes = [i for i, x in enumerate(lines) if (('[0.000000]' in x) | ('[0.000001]' in x)) & (('Reading FastQ file' in x) | ('Reading graph file' in x))]
     title_indexes = [i for i, x in enumerate(lines) if 'Printing' in x]
     end_indexes.append(len(lines)-1)
-    print(title_indexes)
     use('TkAgg')
     for i in range(len(beginning_indexes)):
         current_lines = [i.strip().split('\t') for i in lines[beginning_indexes[i]:end_indexes[i]]]
