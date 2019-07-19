@@ -15,802 +15,984 @@ The N50 for this dataset is 57 nt.
 Contig Length	Number of contigs in this category
 0	3
 [0.000000] Reading FastQ file /projects/bgmp/shared/Bi621/800_3_PE5_interleaved.fq_1;
-[2.371832] 858989 sequences found
-[2.371836] Done
-[2.400624] Reading FastQ file /projects/bgmp/shared/Bi621/800_3_PE5_interleaved.fq_2;
-[4.120372] 858989 sequences found
-[4.120375] Done
-[4.137117] Reading FastQ file /projects/bgmp/shared/Bi621/800_3_PE5_interleaved.fq.unmatched;
-[5.613653] 849803 sequences found
-[5.613655] Done
-[5.661631] Reading read set file /projects/bgmp/tbiondi/PS6/k31/Sequences;
-[6.120287] 2567781 sequences found
-[8.106947] Done
-[8.106953] 2567781 sequences in total.
-[8.112083] Writing into roadmap file /projects/bgmp/tbiondi/PS6/k31/Roadmaps...
-[9.989021] Inputting sequences...
-[9.999860] Inputting sequence 0 / 2567781
-[822.912860] Inputting sequence 1000000 / 2567781
-[1635.848860] Inputting sequence 2000000 / 2567781
-[2097.677896]  === Sequences loaded in 2087.688887 s
-[2097.678102] Done inputting sequences
-[2097.678105] Destroying splay table
-[2097.695510] Splay table destroyed
+[1.319000] 858989 sequences found
+[1.319001] Done
+[1.319054] Reading FastQ file /projects/bgmp/shared/Bi621/800_3_PE5_interleaved.fq_2;
+[2.636798] 858989 sequences found
+[2.636800] Done
+[2.636858] Reading FastQ file /projects/bgmp/shared/Bi621/800_3_PE5_interleaved.fq.unmatched;
+[3.878749] 849803 sequences found
+[3.878750] Done
+[3.890671] Reading read set file /projects/bgmp/tbiondi/PS6/k31/Sequences;
+[4.231390] 2567781 sequences found
+[5.853430] Done
+[5.853434] 2567781 sequences in total.
+[5.854221] Writing into roadmap file /projects/bgmp/tbiondi/PS6/k31/Roadmaps...
+[7.433962] Inputting sequences...
+[7.438101] Inputting sequence 0 / 2567781
+[8.672525] Inputting sequence 2000000 / 2567781
+[21.041978] Inputting sequence 1000000 / 2567781
+[23.714008]  === Sequences loaded in 16.341081 s
+[23.714943] Done inputting sequences
+[23.714946] Destroying splay table
+[23.731339] Splay table destroyed
 [0.000000] Reading roadmap file /projects/bgmp/tbiondi/PS6/k31/Roadmaps
-[3.330884] 2567781 roadmaps read
-[3.331791] Creating insertion markers
-[3.840033] Ordering insertion markers
-[5.851079] Counting preNodes
-[6.113785] 1346738 preNodes counted, creating them now
-[8.292010] Sequence 1000000 / 2567781
-[9.868366] Sequence 2000000 / 2567781
-[10.692531] Adjusting marker info...
-[11.031651] Connecting preNodes
-[13.557565] Connecting 1000000 / 2567781
-[16.031791] Connecting 2000000 / 2567781
-[17.323625] Cleaning up memory
-[17.324321] Done creating preGraph
-[17.324327] Concatenation...
-[17.619302] Renumbering preNodes
-[17.619308] Initial preNode count 1346738
-[17.638509] Destroyed 1120657 preNodes
-[17.638512] Concatenation over!
-[17.638513] Clipping short tips off preGraph
-[17.676496] Concatenation...
-[17.719509] Renumbering preNodes
-[17.719511] Initial preNode count 226081
-[17.728031] Destroyed 97411 preNodes
-[17.728033] Concatenation over!
-[17.728033] 57379 tips cut off
-[17.728034] 128670 nodes left
-[17.730559] Writing into pregraph file /projects/bgmp/tbiondi/PS6/k31/PreGraph...
-[18.064154] Reading read set file /projects/bgmp/tbiondi/PS6/k31/Sequences;
-[18.508234] 2567781 sequences found
-[20.396412] Done
-[22.227245] Reading pre-graph file /projects/bgmp/tbiondi/PS6/k31/PreGraph
-[22.246781] Graph has 128670 nodes and 2567781 sequences
-[22.396575] Scanning pre-graph file /projects/bgmp/tbiondi/PS6/k31/PreGraph for k-mers
-[22.455923] 3121465 kmers found
-[22.729497] Sorting kmer occurence table ... 
-[24.167062] Sorting done.
-[24.167066] Computing acceleration table... 
-[24.221867] Computing offsets... 
-[24.243357] Ghost Threading through reads 0 / 2567781
-[38.246099] Ghost Threading through reads 1000000 / 2567781
-[51.672753] Ghost Threading through reads 2000000 / 2567781
-[58.472176]  === Ghost-Threaded in 34.229198 s
-[58.472184] Threading through reads 0 / 2567781
-[75.053492] Threading through reads 1000000 / 2567781
-[90.749464] Threading through reads 2000000 / 2567781
-[98.774989]  === Threaded in 40.302807 s
-[99.299849] Correcting graph with cutoff 0.200000
-[99.304876] Determining eligible starting points
-[99.427500] Done listing starting nodes
-[99.427504] Initializing todo lists
-[99.448543] Done with initilization
-[99.448545] Activating arc lookup table
-[99.469015] Done activating arc lookup table
-[99.683222] 10000 / 128670 nodes visited
-[99.774484] 20000 / 128670 nodes visited
-[99.875809] 30000 / 128670 nodes visited
-[99.986686] 40000 / 128670 nodes visited
-[100.104092] 50000 / 128670 nodes visited
-[100.226365] 60000 / 128670 nodes visited
-[100.336120] 70000 / 128670 nodes visited
-[100.432212] 80000 / 128670 nodes visited
-[100.509227] 90000 / 128670 nodes visited
-[100.583680] 100000 / 128670 nodes visited
-[100.633385] 110000 / 128670 nodes visited
-[100.644365] 120000 / 128670 nodes visited
-[100.654341] 130000 / 128670 nodes visited
-[100.656435] Concatenation...
-[100.662178] Renumbering nodes
-[100.662179] Initial node count 128670
-[100.663861] Removed 72947 null nodes
-[100.663862] Concatenation over!
-[100.663863] Clipping short tips off graph, drastic
-[100.699646] Concatenation...
-[100.760700] Renumbering nodes
-[100.760702] Initial node count 55723
-[100.761916] Removed 27230 null nodes
-[100.761917] Concatenation over!
-[100.761918] 28493 nodes left
-[100.762832] Writing into graph file /projects/bgmp/tbiondi/PS6/k31/Graph2...
-[102.233352] WARNING: NO COVERAGE CUTOFF PROVIDED
-[102.233354] Velvet will probably leave behind many detectable errors
-[102.233354] See manual for instructions on how to set the coverage cutoff parameter
-[102.233361] Removing contigs with coverage < -1.000000...
-[102.235771] Concatenation...
-[102.238604] Renumbering nodes
-[102.238605] Initial node count 28493
-[102.238629] Removed 0 null nodes
-[102.238629] Concatenation over!
-[102.239351] Concatenation...
-[102.240635] Renumbering nodes
-[102.240636] Initial node count 28493
-[102.240655] Removed 0 null nodes
-[102.240655] Concatenation over!
-[102.240659] Clipping short tips off graph, drastic
-[102.241283] Concatenation...
-[102.242513] Renumbering nodes
-[102.242513] Initial node count 28493
-[102.242533] Removed 0 null nodes
-[102.242533] Concatenation over!
-[102.242533] 28493 nodes left
-[102.242534] Read coherency...
-[102.242883] Identifying unique nodes
-[102.243491] Done, 7095 unique nodes counted
-[102.243492] Trimming read tips
-[102.244521] Renumbering nodes
-[102.244522] Initial node count 28493
-[102.244541] Removed 0 null nodes
-[102.244542] Confronted to 0 multiple hits and 0 null over 0
-[102.244542] Read coherency over!
-[102.253617] Starting pebble resolution...
-[102.264366] Computing read to node mapping array sizes
-[102.424978] Computing read to node mappings
-[103.685879] Estimating library insert lengths...
-[103.699306] Done
-[103.699360] Computing direct node to node mappings
-[103.700444] Scaffolding node -20000
-[103.739925] Scaffolding node -10000
-[103.900991] Scaffolding node 0
-[104.069210] Scaffolding node 10000
-[104.113656] Scaffolding node 20000
-[104.127990]  === Nodes Scaffolded in 0.428629 s
-[104.149356] Preparing to correct graph with cutoff 0.200000
-[104.393882] Cleaning memory
-[104.393888] Deactivating local correction settings
-[104.394089] Pebble done.
-[104.394090] Starting pebble resolution...
-[104.405265] Computing read to node mapping array sizes
-[104.567084] Computing read to node mappings
-[105.824595] Estimating library insert lengths...
-[105.837972] Done
-[105.838034] Computing direct node to node mappings
-[105.839108] Scaffolding node -20000
-[105.878959] Scaffolding node -10000
-[106.039946] Scaffolding node 0
-[106.207083] Scaffolding node 10000
-[106.251730] Scaffolding node 20000
-[106.266104]  === Nodes Scaffolded in 0.428069 s
-[106.286931] Preparing to correct graph with cutoff 0.200000
-[106.412057] Cleaning memory
-[106.412062] Deactivating local correction settings
-[106.412270] Pebble done.
-[106.412271] Concatenation...
-[106.414204] Renumbering nodes
-[106.414205] Initial node count 28493
-[106.414732] Removed 1 null nodes
-[106.414870] Concatenation over!
-[106.414871] Removing reference contigs with coverage < -1.000000...
-[106.415947] Concatenation...
-[106.417225] Renumbering nodes
-[106.417226] Initial node count 28492
-[106.417253] Removed 0 null nodes
-[106.417390] Concatenation over!
-[106.428150] Writing contigs into /projects/bgmp/tbiondi/PS6/k31/contigs.fa...
-[106.993219] Writing into stats file /projects/bgmp/tbiondi/PS6/k31/stats.txt...
-[107.111119] Writing into graph file /projects/bgmp/tbiondi/PS6/k31/LastGraph...
-Final graph has 28492 nodes and n50 of 300, max 4029, total 2001205, using 2240516/2567781 reads
+[2.668676] 2567781 roadmaps read
+[2.669691] Creating insertion markers
+[2.971711] Ordering insertion markers
+[3.609639] Counting preNodes
+[3.857688] 1346738 preNodes counted, creating them now
+[5.663383] Sequence 1000000 / 2567781
+[7.538997] Sequence 2000000 / 2567781
+[8.383748] Adjusting marker info...
+[8.707111] Connecting preNodes
+[8.905819] Connecting 2000000 / 2567781
+[9.658832] Connecting 1000000 / 2567781
+[10.466580] Cleaning up memory
+[10.467293] Done creating preGraph
+[10.467327] Concatenation...
+[10.715022] Renumbering preNodes
+[10.715024] Initial preNode count 1346738
+[10.732066] Destroyed 1120657 preNodes
+[10.732068] Concatenation over!
+[10.732069] Clipping short tips off preGraph
+[10.768656] Concatenation...
+[10.805921] Renumbering preNodes
+[10.805923] Initial preNode count 226081
+[10.813597] Destroyed 97407 preNodes
+[10.813599] Concatenation over!
+[10.813599] 57369 tips cut off
+[10.813600] 128674 nodes left
+[10.814993] Writing into pregraph file /projects/bgmp/tbiondi/PS6/k31/PreGraph...
+[11.113587] Reading read set file /projects/bgmp/tbiondi/PS6/k31/Sequences;
+[11.469841] 2567781 sequences found
+[13.054215] Done
+[14.677945] Reading pre-graph file /projects/bgmp/tbiondi/PS6/k31/PreGraph
+[14.678750] Graph has 128674 nodes and 2567781 sequences
+[14.828683] Scanning pre-graph file /projects/bgmp/tbiondi/PS6/k31/PreGraph for k-mers
+[14.937465] 3121701 kmers found
+[15.171867] Sorting kmer occurence table ...
+[16.416157] Sorting done.
+[16.416159] Computing acceleration table...
+[16.464189] Computing offsets...
+[16.484899] Ghost Threading through reads 0 / 2567781
+[17.251512] Ghost Threading through reads 2000000 / 2567781
+[20.513735] Ghost Threading through reads 1000000 / 2567781
+[23.972088]  === Ghost-Threaded in 7.487349 s
+[23.972109] Threading through reads 0 / 2567781
+[24.888101] Threading through reads 2000000 / 2567781
+[28.813350] Threading through reads 1000000 / 2567781
+[32.958732]  === Threaded in 8.986638 s
+[33.744199] Correcting graph with cutoff 0.200000
+[33.748049] Determining eligible starting points
+[33.860057] Done listing starting nodes
+[33.860059] Initializing todo lists
+[33.885582] Done with initilization
+[33.885584] Activating arc lookup table
+[33.916322] Done activating arc lookup table
+[34.156133] 10000 / 128674 nodes visited
+[34.234379] 20000 / 128674 nodes visited
+[34.323921] 30000 / 128674 nodes visited
+[34.422083] 40000 / 128674 nodes visited
+[34.532746] 50000 / 128674 nodes visited
+[34.646618] 60000 / 128674 nodes visited
+[34.740642] 70000 / 128674 nodes visited
+[34.819695] 80000 / 128674 nodes visited
+[34.885577] 90000 / 128674 nodes visited
+[34.948057] 100000 / 128674 nodes visited
+[34.993700] 110000 / 128674 nodes visited
+[35.004444] 120000 / 128674 nodes visited
+[35.013446] 130000 / 128674 nodes visited
+[35.015708] Concatenation...
+[35.022369] Renumbering nodes
+[35.022370] Initial node count 128674
+[35.023785] Removed 73252 null nodes
+[35.023786] Concatenation over!
+[35.023787] Clipping short tips off graph, drastic
+[35.068659] Concatenation...
+[35.121752] Renumbering nodes
+[35.121754] Initial node count 55422
+[35.122795] Removed 27051 null nodes
+[35.122796] Concatenation over!
+[35.122796] 28371 nodes left
+[35.124057] Writing into graph file /projects/bgmp/tbiondi/PS6/k31/Graph2...
+[36.369430] WARNING: NO COVERAGE CUTOFF PROVIDED
+[36.369431] Velvet will probably leave behind many detectable errors
+[36.369432] See manual for instructions on how to set the coverage cutoff parameter
+[36.369452] Removing contigs with coverage < -1.000000...
+[36.371182] Concatenation...
+[36.374619] Renumbering nodes
+[36.374620] Initial node count 28371
+[36.374639] Removed 0 null nodes
+[36.374639] Concatenation over!
+[36.375219] Concatenation...
+[36.376655] Renumbering nodes
+[36.376656] Initial node count 28371
+[36.376672] Removed 0 null nodes
+[36.376673] Concatenation over!
+[36.376688] Clipping short tips off graph, drastic
+[36.377340] Concatenation...
+[36.378685] Renumbering nodes
+[36.378686] Initial node count 28371
+[36.378703] Removed 0 null nodes
+[36.378703] Concatenation over!
+[36.378704] 28371 nodes left
+[36.378705] Read coherency...
+[36.379069] Identifying unique nodes
+[36.379598] Done, 7126 unique nodes counted
+[36.379599] Trimming read tips
+[36.380572] Renumbering nodes
+[36.380572] Initial node count 28371
+[36.380589] Removed 0 null nodes
+[36.380589] Confronted to 0 multiple hits and 0 null over 0
+[36.380590] Read coherency over!
+[36.388678] Starting pebble resolution...
+[36.397922] Computing read to node mapping array sizes
+[36.461603] Computing read to node mappings
+[36.840480] Estimating library insert lengths...
+[36.863254] Paired-end library 1 has length: 95, sample standard deviation: 155
+[36.863256] Done
+[36.863300] Computing direct node to node mappings
+[36.880436] Scaffolding node -10000
+[36.906602] Scaffolding node -20000
+[36.977250] Scaffolding node 20000
+[37.253751] Scaffolding node 10000
+[37.270462] Scaffolding node 0
+[37.302431]  === Nodes Scaffolded in 0.439131 s
+[37.409518] Preparing to correct graph with cutoff 0.200000
+[38.418706] Cleaning memory
+[38.418718] Deactivating local correction settings
+[38.419052] Pebble done.
+[38.419053] Starting pebble resolution...
+[38.428567] Computing read to node mapping array sizes
+[38.496844] Computing read to node mappings
+[38.880889] Estimating library insert lengths...
+[38.903802] Paired-end library 1 has length: 95, sample standard deviation: 155
+[38.903805] Done
+[38.903851] Computing direct node to node mappings
+[38.920642] Scaffolding node -10000
+[38.946656] Scaffolding node -20000
+[39.017773] Scaffolding node 20000
+[39.288274] Scaffolding node 10000
+[39.304558] Scaffolding node 0
+[39.341827]  === Nodes Scaffolded in 0.437974 s
+[39.449816] Preparing to correct graph with cutoff 0.200000
+[39.945196] Cleaning memory
+[39.945203] Deactivating local correction settings
+[39.945524] Pebble done.
+[39.945526] Concatenation...
+[39.948006] Renumbering nodes
+[39.948008] Initial node count 28371
+[39.948588] Removed 8 null nodes
+[39.948732] Concatenation over!
+[39.948733] Removing reference contigs with coverage < -1.000000...
+[39.949618] Concatenation...
+[39.951270] Renumbering nodes
+[39.951270] Initial node count 28363
+[39.951288] Removed 0 null nodes
+[39.951415] Concatenation over!
+[39.961989] Writing contigs into /projects/bgmp/tbiondi/PS6/k31/contigs.fa...
+[40.468636] Writing into stats file /projects/bgmp/tbiondi/PS6/k31/stats.txt...
+[40.571196] Writing into graph file /projects/bgmp/tbiondi/PS6/k31/LastGraph...
+Final graph has 28363 nodes and n50 of 302, max 4029, total 2004237, using 2240179/2567781 reads
+
+Command being timed: "velveth /projects/bgmp/tbiondi/PS6/k31 31 -fastq -shortPaired /projects/bgmp/shared/Bi621/800_3_PE5_interleaved.fq_1 /projects/bgmp/shared/Bi621/800_3_PE5_interleaved.fq_2 -short /projects/bgmp/shared/Bi621/800_3_PE5_interleaved.fq.unmatched"
+User time (seconds): 60.72
+System time (seconds): 1.33
+Percent of CPU this job got: 261%
+Elapsed (wall clock) time (h:mm:ss or m:ss): 0:23.74
+Average shared text size (kbytes): 0
+Average unshared data size (kbytes): 0
+Average stack size (kbytes): 0
+Average total size (kbytes): 0
+Maximum resident set size (kbytes): 1098644
+Average resident set size (kbytes): 0
+Major (requiring I/O) page faults: 0
+Minor (reclaiming a frame) page faults: 583703
+Voluntary context switches: 329
+Involuntary context switches: 856
+Swaps: 0
+File system inputs: 0
+File system outputs: 0
+Socket messages sent: 0
+Socket messages received: 0
+Signals delivered: 0
+Page size (bytes): 4096
+Exit status: 0
+
+Command being timed: "velvetg /projects/bgmp/tbiondi/PS6/k31 -exp_cov 60.0745845"
+User time (seconds): 95.68
+System time (seconds): 1.18
+Percent of CPU this job got: 231%
+Elapsed (wall clock) time (h:mm:ss or m:ss): 0:41.88
+Average shared text size (kbytes): 0
+Average unshared data size (kbytes): 0
+Average stack size (kbytes): 0
+Average total size (kbytes): 0
+Maximum resident set size (kbytes): 626776
+Average resident set size (kbytes): 0
+Major (requiring I/O) page faults: 0
+Minor (reclaiming a frame) page faults: 559883
+Voluntary context switches: 282
+Involuntary context switches: 128
+Swaps: 0
+File system inputs: 0
+File system outputs: 0
+Socket messages sent: 0
+Socket messages received: 0
+Signals delivered: 0
+Page size (bytes): 4096
+Exit status: 0
+
+
 Printing results for k = 31
 
 ********************
 Processed k31/contigs.fa
 
-There are 11973 contigs in this file.
+There are 11954 contigs in this file.
 The maximum contig length is 4059 nt.
-The total length of this file is 2196627 nt.
-The mean contig length is approximately 183.47 nt.
-The mean depth of coverage is approximately 51.23x.
-The N50 for this dataset is 300 nt.
+The total length of this file is 2200493 nt.
+The mean contig length is approximately 184.08 nt.
+The mean depth of coverage is approximately 50.94x.
+The N50 for this dataset is 301 nt.
 ********************
 
 ***CONTIG DISTRIBUTION***
 Contig Length	Number of contigs in this category
-0	5715
-100	3997
-200	648
-300	437
-400	297
+0	5699
+100	3986
+200	653
+300	434
+400	301
 500	207
-600	154
-700	117
-800	82
-900	58
-1000	50
-1100	34
-1200	34
-1300	24
-1400	19
-1500	22
+600	152
+700	114
+800	79
+900	62
+1000	58
+1100	40
+1200	27
+1300	22
+1400	22
+1500	25
 1600	13
-1700	12
-1800	13
-1900	7
-2000	4
+1700	11
+1800	9
+1900	6
+2000	6
 2100	5
-2200	7
-2300	3
-2400	2
-2500	2
+2200	5
+2300	2
+2400	3
+2500	1
 2600	1
-2700	3
-2800	1
-2900	1
+2700	4
+2800	2
 3100	1
+3200	1
 3600	1
 3800	1
 4000	1
 [0.000000] Reading FastQ file /projects/bgmp/shared/Bi621/800_3_PE5_interleaved.fq_1;
-[1.570069] 858989 sequences found
-[1.570072] Done
-[1.590877] Reading FastQ file /projects/bgmp/shared/Bi621/800_3_PE5_interleaved.fq_2;
-[3.148179] 858989 sequences found
-[3.148182] Done
-[3.167869] Reading FastQ file /projects/bgmp/shared/Bi621/800_3_PE5_interleaved.fq.unmatched;
-[4.598431] 849803 sequences found
-[4.598433] Done
-[4.645428] Reading read set file /projects/bgmp/tbiondi/PS6/k41/Sequences;
-[5.089993] 2567781 sequences found
-[6.994372] Done
-[6.994376] 2567781 sequences in total.
-[6.997332] Writing into roadmap file /projects/bgmp/tbiondi/PS6/k41/Roadmaps...
-[8.884698] Inputting sequences...
-[8.894830] Inputting sequence 0 / 2567781
-[821.819830] Inputting sequence 1000000 / 2567781
-[1634.833830] Inputting sequence 2000000 / 2567781
-[2096.404851]  === Sequences loaded in 2087.520164 s
-[2096.405098] Done inputting sequences
-[2096.405101] Destroying splay table
-[2096.413831] Splay table destroyed
+[1.334585] 858989 sequences found
+[1.334586] Done
+[1.334642] Reading FastQ file /projects/bgmp/shared/Bi621/800_3_PE5_interleaved.fq_2;
+[2.693424] 858989 sequences found
+[2.693426] Done
+[2.693486] Reading FastQ file /projects/bgmp/shared/Bi621/800_3_PE5_interleaved.fq.unmatched;
+[3.958901] 849803 sequences found
+[3.958902] Done
+[3.971639] Reading read set file /projects/bgmp/tbiondi/PS6/k41/Sequences;
+[4.320354] 2567781 sequences found
+[5.997178] Done
+[5.997181] 2567781 sequences in total.
+[6.000327] Writing into roadmap file /projects/bgmp/tbiondi/PS6/k41/Roadmaps...
+[7.661193] Inputting sequences...
+[7.672354] Inputting sequence 0 / 2567781
+[8.316884] Inputting sequence 2000000 / 2567781
+[11.938517] Inputting sequence 1000000 / 2567781
+[19.711656]  === Sequences loaded in 12.113059 s
+[19.712584] Done inputting sequences
+[19.712587] Destroying splay table
+[19.727709] Splay table destroyed
 [0.000000] Reading roadmap file /projects/bgmp/tbiondi/PS6/k41/Roadmaps
-[3.125101] 2567781 roadmaps read
-[3.125954] Creating insertion markers
-[3.608995] Ordering insertion markers
-[5.389595] Counting preNodes
-[5.633022] 1298156 preNodes counted, creating them now
-[7.807779] Sequence 1000000 / 2567781
-[9.352130] Sequence 2000000 / 2567781
-[10.156793] Adjusting marker info...
-[10.464949] Connecting preNodes
-[12.484955] Connecting 1000000 / 2567781
-[14.435954] Connecting 2000000 / 2567781
-[15.387990] Cleaning up memory
-[15.388670] Done creating preGraph
-[15.388676] Concatenation...
-[15.662007] Renumbering preNodes
-[15.662011] Initial preNode count 1298156
-[15.675478] Destroyed 1137712 preNodes
-[15.675481] Concatenation over!
-[15.675482] Clipping short tips off preGraph
-[15.707396] Concatenation...
-[15.775801] Renumbering preNodes
-[15.775804] Initial preNode count 160444
-[15.779736] Destroyed 110963 preNodes
-[15.779737] Concatenation over!
-[15.779738] 67087 tips cut off
-[15.779738] 49481 nodes left
-[15.780508] Writing into pregraph file /projects/bgmp/tbiondi/PS6/k41/PreGraph...
-[15.952485] Reading read set file /projects/bgmp/tbiondi/PS6/k41/Sequences;
-[16.402960] 2567781 sequences found
-[18.374607] Done
-[20.250323] Reading pre-graph file /projects/bgmp/tbiondi/PS6/k41/PreGraph
-[20.267764] Graph has 49481 nodes and 2567781 sequences
-[20.349698] Scanning pre-graph file /projects/bgmp/tbiondi/PS6/k41/PreGraph for k-mers
-[20.387621] 2156052 kmers found
-[20.560220] Sorting kmer occurence table ... 
-[21.477351] Sorting done.
-[21.477354] Computing acceleration table... 
-[21.517265] Computing offsets... 
-[21.533050] Ghost Threading through reads 0 / 2567781
-[32.081450] Ghost Threading through reads 1000000 / 2567781
-[41.965117] Ghost Threading through reads 2000000 / 2567781
-[46.836024]  === Ghost-Threaded in 25.303110 s
-[46.836030] Threading through reads 0 / 2567781
-[58.854493] Threading through reads 1000000 / 2567781
-[70.159655] Threading through reads 2000000 / 2567781
-[75.730935]  === Threaded in 28.894906 s
-[76.001080] Correcting graph with cutoff 0.200000
-[76.003350] Determining eligible starting points
-[76.046579] Done listing starting nodes
-[76.046580] Initializing todo lists
-[76.050039] Done with initilization
-[76.050040] Activating arc lookup table
-[76.052884] Done activating arc lookup table
-[76.237972] 10000 / 49481 nodes visited
-[76.360677] 20000 / 49481 nodes visited
-[76.478207] 30000 / 49481 nodes visited
-[76.556620] 40000 / 49481 nodes visited
-[76.576898] 50000 / 49481 nodes visited
-[76.589818] Concatenation...
-[76.591767] Renumbering nodes
-[76.591768] Initial node count 49481
-[76.592441] Removed 24942 null nodes
-[76.592442] Concatenation over!
-[76.592443] Clipping short tips off graph, drastic
-[76.603988] Concatenation...
-[76.644205] Renumbering nodes
-[76.644207] Initial node count 24539
-[76.644587] Removed 13665 null nodes
-[76.644588] Concatenation over!
-[76.644589] 10874 nodes left
-[76.645517] Writing into graph file /projects/bgmp/tbiondi/PS6/k41/Graph2...
-[77.568031] WARNING: NO COVERAGE CUTOFF PROVIDED
-[77.568033] Velvet will probably leave behind many detectable errors
-[77.568034] See manual for instructions on how to set the coverage cutoff parameter
-[77.568050] Removing contigs with coverage < -1.000000...
-[77.569243] Concatenation...
-[77.570325] Renumbering nodes
-[77.570326] Initial node count 10874
-[77.570336] Removed 0 null nodes
-[77.570337] Concatenation over!
-[77.570615] Concatenation...
-[77.571102] Renumbering nodes
-[77.571102] Initial node count 10874
-[77.571112] Removed 0 null nodes
-[77.571112] Concatenation over!
-[77.571116] Clipping short tips off graph, drastic
-[77.571381] Concatenation...
-[77.571863] Renumbering nodes
-[77.571864] Initial node count 10874
-[77.571873] Removed 0 null nodes
-[77.571874] Concatenation over!
-[77.571874] 10874 nodes left
-[77.571875] Read coherency...
-[77.572023] Identifying unique nodes
-[77.572226] Done, 2517 unique nodes counted
-[77.572227] Trimming read tips
-[77.572613] Renumbering nodes
-[77.572614] Initial node count 10874
-[77.572621] Removed 0 null nodes
-[77.572622] Confronted to 0 multiple hits and 0 null over 0
-[77.572622] Read coherency over!
-[77.581133] Starting pebble resolution...
-[77.594274] Computing read to node mapping array sizes
-[77.700597] Computing read to node mappings
-[78.552465] Estimating library insert lengths...
-[78.566076] Done
-[78.566099] Computing direct node to node mappings
-[78.566200] Scaffolding node -10000
-[78.702787] Scaffolding node 0
-[78.844537] Scaffolding node 10000
-[78.848406]  === Nodes Scaffolded in 0.282307 s
-[78.858764] Preparing to correct graph with cutoff 0.200000
-[78.919483] Cleaning memory
-[78.919486] Deactivating local correction settings
-[78.919556] Pebble done.
-[78.919557] Starting pebble resolution...
-[78.930523] Computing read to node mapping array sizes
-[79.034681] Computing read to node mappings
-[79.902742] Estimating library insert lengths...
-[79.916041] Done
-[79.916073] Computing direct node to node mappings
-[79.916160] Scaffolding node -10000
-[80.051467] Scaffolding node 0
-[80.191752] Scaffolding node 10000
-[80.195585]  === Nodes Scaffolded in 0.279512 s
-[80.205923] Preparing to correct graph with cutoff 0.200000
-[80.237534] Cleaning memory
-[80.237536] Deactivating local correction settings
-[80.237607] Pebble done.
-[80.237609] Concatenation...
-[80.238229] Renumbering nodes
-[80.238230] Initial node count 10874
-[80.238402] Removed 7 null nodes
-[80.238451] Concatenation over!
-[80.238451] Removing reference contigs with coverage < -1.000000...
-[80.238842] Concatenation...
-[80.239318] Renumbering nodes
-[80.239319] Initial node count 10867
-[80.239328] Removed 0 null nodes
-[80.239376] Concatenation over!
-[80.250077] Writing contigs into /projects/bgmp/tbiondi/PS6/k41/contigs.fa...
-[80.771637] Writing into stats file /projects/bgmp/tbiondi/PS6/k41/stats.txt...
-[80.826962] Writing into graph file /projects/bgmp/tbiondi/PS6/k41/LastGraph...
-Final graph has 10867 nodes and n50 of 843, max 7403, total 1606727, using 2163563/2567781 reads
+[2.528753] 2567781 roadmaps read
+[2.529680] Creating insertion markers
+[2.819307] Ordering insertion markers
+[3.280343] Counting preNodes
+[3.512176] 1298156 preNodes counted, creating them now
+[5.422933] Sequence 1000000 / 2567781
+[7.267992] Sequence 2000000 / 2567781
+[8.135701] Adjusting marker info...
+[8.432339] Connecting preNodes
+[8.598493] Connecting 2000000 / 2567781
+[9.236439] Connecting 1000000 / 2567781
+[9.942917] Cleaning up memory
+[9.943609] Done creating preGraph
+[9.943616] Concatenation...
+[10.182197] Renumbering preNodes
+[10.182200] Initial preNode count 1298156
+[10.195798] Destroyed 1137712 preNodes
+[10.195800] Concatenation over!
+[10.195801] Clipping short tips off preGraph
+[10.226937] Concatenation...
+[10.257050] Renumbering preNodes
+[10.257052] Initial preNode count 160444
+[10.260538] Destroyed 110963 preNodes
+[10.260539] Concatenation over!
+[10.260539] 67085 tips cut off
+[10.260540] 49481 nodes left
+[10.260918] Writing into pregraph file /projects/bgmp/tbiondi/PS6/k41/PreGraph...
+[10.449288] Reading read set file /projects/bgmp/tbiondi/PS6/k41/Sequences;
+[10.807388] 2567781 sequences found
+[12.397426] Done
+[14.017686] Reading pre-graph file /projects/bgmp/tbiondi/PS6/k41/PreGraph
+[14.017807] Graph has 49481 nodes and 2567781 sequences
+[14.100026] Scanning pre-graph file /projects/bgmp/tbiondi/PS6/k41/PreGraph for k-mers
+[14.166258] 2156119 kmers found
+[14.313466] Sorting kmer occurence table ...
+[15.148846] Sorting done.
+[15.148847] Computing acceleration table...
+[15.185561] Computing offsets...
+[15.200833] Ghost Threading through reads 0 / 2567781
+[15.791880] Ghost Threading through reads 2000000 / 2567781
+[18.374513] Ghost Threading through reads 1000000 / 2567781
+[21.210464]  === Ghost-Threaded in 6.009757 s
+[21.210480] Threading through reads 0 / 2567781
+[21.890416] Threading through reads 2000000 / 2567781
+[24.888054] Threading through reads 1000000 / 2567781
+[28.123762]  === Threaded in 6.913291 s
+[28.522683] Correcting graph with cutoff 0.200000
+[28.524457] Determining eligible starting points
+[28.562432] Done listing starting nodes
+[28.562434] Initializing todo lists
+[28.569479] Done with initilization
+[28.569482] Activating arc lookup table
+[28.574231] Done activating arc lookup table
+[28.749461] 10000 / 49481 nodes visited
+[28.840177] 20000 / 49481 nodes visited
+[28.936907] 30000 / 49481 nodes visited
+[29.004899] 40000 / 49481 nodes visited
+[29.022407] 50000 / 49481 nodes visited
+[29.023303] Concatenation...
+[29.025901] Renumbering nodes
+[29.025901] Initial node count 49481
+[29.026420] Removed 24858 null nodes
+[29.026421] Concatenation over!
+[29.026421] Clipping short tips off graph, drastic
+[29.038850] Concatenation...
+[29.072998] Renumbering nodes
+[29.073000] Initial node count 24623
+[29.073377] Removed 13696 null nodes
+[29.073378] Concatenation over!
+[29.073378] 10927 nodes left
+[29.074376] Writing into graph file /projects/bgmp/tbiondi/PS6/k41/Graph2...
+[29.850489] WARNING: NO COVERAGE CUTOFF PROVIDED
+[29.850490] Velvet will probably leave behind many detectable errors
+[29.850491] See manual for instructions on how to set the coverage cutoff parameter
+[29.850502] Removing contigs with coverage < -1.000000...
+[29.851303] Concatenation...
+[29.852528] Renumbering nodes
+[29.852529] Initial node count 10927
+[29.852536] Removed 0 null nodes
+[29.852536] Concatenation over!
+[29.852753] Concatenation...
+[29.853266] Renumbering nodes
+[29.853266] Initial node count 10927
+[29.853273] Removed 0 null nodes
+[29.853273] Concatenation over!
+[29.853277] Clipping short tips off graph, drastic
+[29.853530] Concatenation...
+[29.854003] Renumbering nodes
+[29.854003] Initial node count 10927
+[29.854011] Removed 0 null nodes
+[29.854011] Concatenation over!
+[29.854011] 10927 nodes left
+[29.854012] Read coherency...
+[29.854131] Identifying unique nodes
+[29.854333] Done, 2543 unique nodes counted
+[29.854333] Trimming read tips
+[29.854752] Renumbering nodes
+[29.854753] Initial node count 10927
+[29.854759] Removed 0 null nodes
+[29.854760] Confronted to 0 multiple hits and 0 null over 0
+[29.854761] Read coherency over!
+[29.862646] Starting pebble resolution...
+[29.873484] Computing read to node mapping array sizes
+[29.921925] Computing read to node mappings
+[30.197916] Estimating library insert lengths...
+[30.216845] Paired-end library 1 has length: 102, sample standard deviation: 191
+[30.216848] Done
+[30.216866] Computing direct node to node mappings
+[30.220012] Scaffolding node -10000
+[30.261951] Scaffolding node 10000
+[30.452767] Scaffolding node 0
+[30.471453]  === Nodes Scaffolded in 0.254586 s
+[30.517597] Preparing to correct graph with cutoff 0.200000
+[30.858686] Cleaning memory
+[30.858694] Deactivating local correction settings
+[30.858798] Pebble done.
+[30.858799] Starting pebble resolution...
+[30.867434] Computing read to node mapping array sizes
+[30.913806] Computing read to node mappings
+[31.187744] Estimating library insert lengths...
+[31.206652] Paired-end library 1 has length: 102, sample standard deviation: 191
+[31.206655] Done
+[31.206671] Computing direct node to node mappings
+[31.209669] Scaffolding node -10000
+[31.250519] Scaffolding node 10000
+[31.438112] Scaffolding node 0
+[31.456547]  === Nodes Scaffolded in 0.249876 s
+[31.502776] Preparing to correct graph with cutoff 0.200000
+[31.673512] Cleaning memory
+[31.673517] Deactivating local correction settings
+[31.673624] Pebble done.
+[31.673626] Concatenation...
+[31.674341] Renumbering nodes
+[31.674342] Initial node count 10927
+[31.674430] Removed 4 null nodes
+[31.674480] Concatenation over!
+[31.674481] Removing reference contigs with coverage < -1.000000...
+[31.674831] Concatenation...
+[31.675320] Renumbering nodes
+[31.675321] Initial node count 10923
+[31.675328] Removed 0 null nodes
+[31.675374] Concatenation over!
+[31.686339] Writing contigs into /projects/bgmp/tbiondi/PS6/k41/contigs.fa...
+[32.180813] Writing into stats file /projects/bgmp/tbiondi/PS6/k41/stats.txt...
+[32.233188] Writing into graph file /projects/bgmp/tbiondi/PS6/k41/LastGraph...
+Final graph has 10923 nodes and n50 of 825, max 7403, total 1608131, using 2161739/2567781 reads
+
+Command being timed: "velveth /projects/bgmp/tbiondi/PS6/k41 41 -fastq -shortPaired /projects/bgmp/shared/Bi621/800_3_PE5_interleaved.fq_1 /projects/bgmp/shared/Bi621/800_3_PE5_interleaved.fq_2 -short /projects/bgmp/shared/Bi621/800_3_PE5_interleaved.fq.unmatched"
+User time (seconds): 48.84
+System time (seconds): 1.31
+Percent of CPU this job got: 253%
+Elapsed (wall clock) time (h:mm:ss or m:ss): 0:19.76
+Average shared text size (kbytes): 0
+Average unshared data size (kbytes): 0
+Average stack size (kbytes): 0
+Average total size (kbytes): 0
+Maximum resident set size (kbytes): 1085192
+Average resident set size (kbytes): 0
+Major (requiring I/O) page faults: 0
+Minor (reclaiming a frame) page faults: 491950
+Voluntary context switches: 563
+Involuntary context switches: 713
+Swaps: 0
+File system inputs: 0
+File system outputs: 0
+Socket messages sent: 0
+Socket messages received: 0
+Signals delivered: 0
+Page size (bytes): 4096
+Exit status: 0
+Command being timed: "velvetg /projects/bgmp/tbiondi/PS6/k41 -exp_cov 47.2356795"
+User time (seconds): 74.35
+System time (seconds): 0.93
+Percent of CPU this job got: 227%
+Elapsed (wall clock) time (h:mm:ss or m:ss): 0:33.06
+Average shared text size (kbytes): 0
+Average unshared data size (kbytes): 0
+Average stack size (kbytes): 0
+Average total size (kbytes): 0
+Maximum resident set size (kbytes): 519316
+Average resident set size (kbytes): 0
+Major (requiring I/O) page faults: 0
+Minor (reclaiming a frame) page faults: 333643
+Voluntary context switches: 191
+Involuntary context switches: 95
+Swaps: 0
+File system inputs: 0
+File system outputs: 0
+Socket messages sent: 0
+Socket messages received: 0
+Signals delivered: 0
+Page size (bytes): 4096
+Exit status: 0
+
 Printing results for k = 41
 
 ********************
 Processed k41/contigs.fa
 
-There are 5363 contigs in this file.
+There are 5492 contigs in this file.
 The maximum contig length is 7443 nt.
-The total length of this file is 1751585 nt.
-The mean contig length is approximately 326.61 nt.
-The mean depth of coverage is approximately 53.12x.
-The N50 for this dataset is 818 nt.
+The total length of this file is 1759210 nt.
+The mean contig length is approximately 320.32 nt.
+The mean depth of coverage is approximately 53.53x.
+The N50 for this dataset is 782 nt.
 ********************
 
 ***CONTIG DISTRIBUTION***
 Contig Length	Number of contigs in this category
-0	2143
-100	1493
-200	413
-300	255
+0	2240
+100	1513
+200	403
+300	292
 400	176
-500	141
-600	101
-700	97
-800	86
-900	65
-1000	47
-1100	36
-1200	40
-1300	28
-1400	25
-1500	29
-1600	17
-1700	17
-1800	13
-1900	15
-2000	7
-2100	12
-2200	14
+500	137
+600	110
+700	96
+800	79
+900	54
+1000	48
+1100	39
+1200	29
+1300	23
+1400	23
+1500	30
+1600	19
+1700	19
+1800	17
+1900	25
+2000	11
+2100	13
+2200	11
 2300	5
-2400	12
-2500	11
+2400	7
+2500	8
 2600	8
-2700	3
-2800	5
-2900	1
-3000	2
-3100	7
-3200	5
-3300	4
-3400	2
+2700	2
+2800	4
+2900	3
+3000	4
+3100	3
+3200	7
+3300	6
+3400	3
 3500	1
 3600	4
 3700	1
-3800	2
-3900	2
-4000	2
-4100	3
-4200	2
-4300	1
-4400	1
+3800	3
+4000	3
+4100	1
+4200	1
+4300	2
+4500	1
 4700	2
-5200	2
+5200	1
 5600	1
-5800	2
+6700	1
+7000	1
 7100	1
 7400	1
 [0.000000] Reading FastQ file /projects/bgmp/shared/Bi621/800_3_PE5_interleaved.fq_1;
-[1.538744] 858989 sequences found
-[1.538746] Done
-[1.562195] Reading FastQ file /projects/bgmp/shared/Bi621/800_3_PE5_interleaved.fq_2;
-[3.123612] 858989 sequences found
-[3.123615] Done
-[3.123698] Reading FastQ file /projects/bgmp/shared/Bi621/800_3_PE5_interleaved.fq.unmatched;
-[4.542858] 849803 sequences found
-[4.542860] Done
-[4.589922] Reading read set file /projects/bgmp/tbiondi/PS6/k49/Sequences;
-[5.096306] 2567781 sequences found
-[7.156819] Done
-[7.156822] 2567781 sequences in total.
-[7.157942] Writing into roadmap file /projects/bgmp/tbiondi/PS6/k49/Roadmaps...
-[9.070950] Inputting sequences...
-[9.081300] Inputting sequence 0 / 2567781
-[821.947299] Inputting sequence 1000000 / 2567781
-[1634.444300] Inputting sequence 2000000 / 2567781
-[2096.013324]  === Sequences loaded in 2086.942387 s
-[2096.013541] Done inputting sequences
-[2096.013544] Destroying splay table
-[2096.020613] Splay table destroyed
+[1.330426] 858989 sequences found
+[1.330427] Done
+[1.330487] Reading FastQ file /projects/bgmp/shared/Bi621/800_3_PE5_interleaved.fq_2;
+[2.657872] 858989 sequences found
+[2.657874] Done
+[2.657938] Reading FastQ file /projects/bgmp/shared/Bi621/800_3_PE5_interleaved.fq.unmatched;
+[3.916913] 849803 sequences found
+[3.916915] Done
+[3.929164] Reading read set file /projects/bgmp/tbiondi/PS6/k49/Sequences;
+[4.274483] 2567781 sequences found
+[5.901575] Done
+[5.901579] 2567781 sequences in total.
+[5.905401] Writing into roadmap file /projects/bgmp/tbiondi/PS6/k49/Roadmaps...
+[7.498016] Inputting sequences...
+[7.502178] Inputting sequence 0 / 2567781
+[12.154757] Inputting sequence 1000000 / 2567781
+[15.985709] Inputting sequence 2000000 / 2567781
+[19.095597]  === Sequences loaded in 11.659602 s
+[19.096463] Done inputting sequences
+[19.096466] Destroying splay table
+[19.110578] Splay table destroyed
 [0.000000] Reading roadmap file /projects/bgmp/tbiondi/PS6/k49/Roadmaps
-[2.817042] 2567781 roadmaps read
-[2.817929] Creating insertion markers
-[3.251089] Ordering insertion markers
-[4.731275] Counting preNodes
-[4.954945] 1228385 preNodes counted, creating them now
-[7.140894] Sequence 1000000 / 2567781
-[8.685993] Sequence 2000000 / 2567781
-[9.430632] Adjusting marker info...
-[9.701373] Connecting preNodes
-[11.233581] Connecting 1000000 / 2567781
-[12.670237] Connecting 2000000 / 2567781
-[13.377100] Cleaning up memory
-[13.377758] Done creating preGraph
-[13.377764] Concatenation...
-[13.637930] Renumbering preNodes
-[13.637934] Initial preNode count 1228385
-[13.648158] Destroyed 1108466 preNodes
-[13.648161] Concatenation over!
-[13.648162] Clipping short tips off preGraph
-[13.681476] Concatenation...
-[13.737618] Renumbering preNodes
-[13.737622] Initial preNode count 119919
-[13.739061] Destroyed 104428 preNodes
-[13.739062] Concatenation over!
-[13.739063] 62938 tips cut off
-[13.739063] 15491 nodes left
-[13.742460] Writing into pregraph file /projects/bgmp/tbiondi/PS6/k49/PreGraph...
-[13.840927] Reading read set file /projects/bgmp/tbiondi/PS6/k49/Sequences;
-[14.260427] 2567781 sequences found
-[16.152193] Done
-[17.963718] Reading pre-graph file /projects/bgmp/tbiondi/PS6/k49/PreGraph
-[17.963785] Graph has 15491 nodes and 2567781 sequences
-[18.004747] Scanning pre-graph file /projects/bgmp/tbiondi/PS6/k49/PreGraph for k-mers
-[18.028510] 1644251 kmers found
-[18.132519] Sorting kmer occurence table ... 
-[18.746011] Sorting done.
-[18.746031] Computing acceleration table... 
-[18.776925] Computing offsets... 
-[18.787665] Ghost Threading through reads 0 / 2567781
-[26.553985] Ghost Threading through reads 1000000 / 2567781
-[33.863885] Ghost Threading through reads 2000000 / 2567781
-[37.351198]  === Ghost-Threaded in 18.563571 s
-[37.351206] Threading through reads 0 / 2567781
-[46.189199] Threading through reads 1000000 / 2567781
-[54.422450] Threading through reads 2000000 / 2567781
-[58.345297]  === Threaded in 20.994094 s
-[58.505794] Correcting graph with cutoff 0.200000
-[58.506324] Determining eligible starting points
-[58.518295] Done listing starting nodes
-[58.518297] Initializing todo lists
-[58.519319] Done with initilization
-[58.519320] Activating arc lookup table
-[58.520130] Done activating arc lookup table
-[58.677773] 10000 / 15491 nodes visited
-[58.692639] Concatenation...
-[58.693147] Renumbering nodes
-[58.693148] Initial node count 15491
-[58.693404] Removed 5328 null nodes
-[58.693404] Concatenation over!
-[58.693405] Clipping short tips off graph, drastic
-[58.696677] Concatenation...
-[58.704925] Renumbering nodes
-[58.704926] Initial node count 10163
-[58.705055] Removed 4245 null nodes
-[58.705056] Concatenation over!
-[58.705056] 5918 nodes left
-[58.705572] Writing into graph file /projects/bgmp/tbiondi/PS6/k49/Graph2...
-[59.396315] WARNING: NO COVERAGE CUTOFF PROVIDED
-[59.396316] Velvet will probably leave behind many detectable errors
-[59.396317] See manual for instructions on how to set the coverage cutoff parameter
-[59.396323] Removing contigs with coverage < -1.000000...
-[59.396948] Concatenation...
-[59.397422] Renumbering nodes
-[59.397422] Initial node count 5918
-[59.397427] Removed 0 null nodes
-[59.397428] Concatenation over!
-[59.397535] Concatenation...
-[59.397786] Renumbering nodes
-[59.397787] Initial node count 5918
-[59.397792] Removed 0 null nodes
-[59.397792] Concatenation over!
-[59.397796] Clipping short tips off graph, drastic
-[59.397941] Concatenation...
-[59.398187] Renumbering nodes
-[59.398187] Initial node count 5918
-[59.398193] Removed 0 null nodes
-[59.398193] Concatenation over!
-[59.398193] 5918 nodes left
-[59.398195] Read coherency...
-[59.398261] Identifying unique nodes
-[59.398375] Done, 1605 unique nodes counted
-[59.398376] Trimming read tips
-[59.398598] Renumbering nodes
-[59.398599] Initial node count 5918
-[59.398604] Removed 0 null nodes
-[59.398604] Confronted to 0 multiple hits and 0 null over 0
-[59.398605] Read coherency over!
-[59.407706] Starting pebble resolution...
-[59.418108] Computing read to node mapping array sizes
-[59.493093] Computing read to node mappings
-[60.150794] Estimating library insert lengths...
-[60.164352] Done
-[60.164367] Computing direct node to node mappings
-[60.262903] Scaffolding node 0
-[60.366436]  === Nodes Scaffolded in 0.202069 s
-[60.374189] Preparing to correct graph with cutoff 0.200000
-[60.395138] Cleaning memory
-[60.395141] Deactivating local correction settings
-[60.395179] Pebble done.
-[60.395180] Starting pebble resolution...
-[60.406042] Computing read to node mapping array sizes
-[60.481547] Computing read to node mappings
-[61.118816] Estimating library insert lengths...
-[61.132048] Done
-[61.132061] Computing direct node to node mappings
-[61.230567] Scaffolding node 0
-[61.333971]  === Nodes Scaffolded in 0.201909 s
-[61.341686] Preparing to correct graph with cutoff 0.200000
-[61.352465] Cleaning memory
-[61.352467] Deactivating local correction settings
-[61.352505] Pebble done.
-[61.352506] Concatenation...
-[61.352796] Renumbering nodes
-[61.352797] Initial node count 5918
-[61.352865] Removed 3 null nodes
-[61.352893] Concatenation over!
-[61.352894] Removing reference contigs with coverage < -1.000000...
-[61.353085] Concatenation...
-[61.353309] Renumbering nodes
-[61.353309] Initial node count 5915
-[61.353314] Removed 0 null nodes
-[61.353341] Concatenation over!
-[61.366908] Writing contigs into /projects/bgmp/tbiondi/PS6/k49/contigs.fa...
-[61.806869] Writing into stats file /projects/bgmp/tbiondi/PS6/k49/stats.txt...
-[61.846274] Writing into graph file /projects/bgmp/tbiondi/PS6/k49/LastGraph...
-Final graph has 5915 nodes and n50 of 1079, max 5189, total 1497403, using 1974291/2567781 reads
+[2.338005] 2567781 roadmaps read
+[2.338950] Creating insertion markers
+[2.611492] Ordering insertion markers
+[3.105763] Counting preNodes
+[3.314525] 1228385 preNodes counted, creating them now
+[5.330056] Sequence 1000000 / 2567781
+[7.159053] Sequence 2000000 / 2567781
+[8.000067] Adjusting marker info...
+[8.257996] Connecting preNodes
+[8.399897] Connecting 2000000 / 2567781
+[8.916419] Connecting 1000000 / 2567781
+[9.495689] Cleaning up memory
+[9.496235] Done creating preGraph
+[9.496244] Concatenation...
+[9.729360] Renumbering preNodes
+[9.729363] Initial preNode count 1228385
+[9.740111] Destroyed 1108466 preNodes
+[9.740113] Concatenation over!
+[9.740114] Clipping short tips off preGraph
+[9.772545] Concatenation...
+[9.828273] Renumbering preNodes
+[9.828275] Initial preNode count 119919
+[9.829644] Destroyed 104428 preNodes
+[9.829645] Concatenation over!
+[9.829645] 62938 tips cut off
+[9.829646] 15491 nodes left
+[9.831074] Writing into pregraph file /projects/bgmp/tbiondi/PS6/k49/PreGraph...
+[9.919831] Reading read set file /projects/bgmp/tbiondi/PS6/k49/Sequences;
+[10.291631] 2567781 sequences found
+[11.915893] Done
+[13.501757] Reading pre-graph file /projects/bgmp/tbiondi/PS6/k49/PreGraph
+[13.501804] Graph has 15491 nodes and 2567781 sequences
+[13.546102] Scanning pre-graph file /projects/bgmp/tbiondi/PS6/k49/PreGraph for k-mers
+[13.589008] 1644251 kmers found
+[13.694214] Sorting kmer occurence table ...
+[14.300530] Sorting done.
+[14.300531] Computing acceleration table...
+[14.336431] Computing offsets...
+[14.346974] Ghost Threading through reads 0 / 2567781
+[14.784985] Ghost Threading through reads 2000000 / 2567781
+[16.740645] Ghost Threading through reads 1000000 / 2567781
+[18.881345]  === Ghost-Threaded in 4.534483 s
+[18.881356] Threading through reads 0 / 2567781
+[19.377189] Threading through reads 2000000 / 2567781
+[21.610222] Threading through reads 1000000 / 2567781
+[24.048789]  === Threaded in 5.167437 s
+[24.282247] Correcting graph with cutoff 0.200000
+[24.282756] Determining eligible starting points
+[24.292393] Done listing starting nodes
+[24.292394] Initializing todo lists
+[24.293639] Done with initilization
+[24.293640] Activating arc lookup table
+[24.294209] Done activating arc lookup table
+[24.431461] 10000 / 15491 nodes visited
+[24.445926] Concatenation...
+[24.446692] Renumbering nodes
+[24.446693] Initial node count 15491
+[24.446860] Removed 5429 null nodes
+[24.446860] Concatenation over!
+[24.446861] Clipping short tips off graph, drastic
+[24.450403] Concatenation...
+[24.457538] Renumbering nodes
+[24.457539] Initial node count 10062
+[24.457651] Removed 4292 null nodes
+[24.457652] Concatenation over!
+[24.457652] 5770 nodes left
+[24.458453] Writing into graph file /projects/bgmp/tbiondi/PS6/k49/Graph2...
+[25.031624] WARNING: NO COVERAGE CUTOFF PROVIDED
+[25.031626] Velvet will probably leave behind many detectable errors
+[25.031626] See manual for instructions on how to set the coverage cutoff parameter
+[25.031632] Removing contigs with coverage < -1.000000...
+[25.032115] Concatenation...
+[25.032651] Renumbering nodes
+[25.032651] Initial node count 5770
+[25.032657] Removed 0 null nodes
+[25.032657] Concatenation over!
+[25.032771] Concatenation...
+[25.033020] Renumbering nodes
+[25.033021] Initial node count 5770
+[25.033025] Removed 0 null nodes
+[25.033025] Concatenation over!
+[25.033029] Clipping short tips off graph, drastic
+[25.033160] Concatenation...
+[25.033369] Renumbering nodes
+[25.033370] Initial node count 5770
+[25.033374] Removed 0 null nodes
+[25.033374] Concatenation over!
+[25.033375] 5770 nodes left
+[25.033380] Read coherency...
+[25.033435] Identifying unique nodes
+[25.033535] Done, 1575 unique nodes counted
+[25.033535] Trimming read tips
+[25.033734] Renumbering nodes
+[25.033735] Initial node count 5770
+[25.033738] Removed 0 null nodes
+[25.033739] Confronted to 0 multiple hits and 0 null over 0
+[25.033739] Read coherency over!
+[25.041309] Starting pebble resolution...
+[25.050147] Computing read to node mapping array sizes
+[25.091214] Computing read to node mappings
+[25.334817] Estimating library insert lengths...
+[25.351868] Paired-end library 1 has length: 72, sample standard deviation: 142
+[25.351871] Done
+[25.351881] Computing direct node to node mappings
+[25.502397] Scaffolding node 0
+[25.511172]  === Nodes Scaffolded in 0.159290 s
+[25.532176] Preparing to correct graph with cutoff 0.200000
+[25.647129] Cleaning memory
+[25.647137] Deactivating local correction settings
+[25.647194] Pebble done.
+[25.647195] Starting pebble resolution...
+[25.655748] Computing read to node mapping array sizes
+[25.698323] Computing read to node mappings
+[25.941094] Estimating library insert lengths...
+[25.958059] Paired-end library 1 has length: 72, sample standard deviation: 142
+[25.958062] Done
+[25.958072] Computing direct node to node mappings
+[26.099028] Scaffolding node 0
+[26.107583]  === Nodes Scaffolded in 0.149511 s
+[26.127637] Preparing to correct graph with cutoff 0.200000
+[26.184477] Cleaning memory
+[26.184480] Deactivating local correction settings
+[26.184534] Pebble done.
+[26.184535] Concatenation...
+[26.184874] Renumbering nodes
+[26.184875] Initial node count 5770
+[26.184963] Removed 12 null nodes
+[26.184987] Concatenation over!
+[26.184987] Removing reference contigs with coverage < -1.000000...
+[26.185145] Concatenation...
+[26.185345] Renumbering nodes
+[26.185346] Initial node count 5758
+[26.185350] Removed 0 null nodes
+[26.185372] Concatenation over!
+[26.197741] Writing contigs into /projects/bgmp/tbiondi/PS6/k49/contigs.fa...
+[26.616532] Writing into stats file /projects/bgmp/tbiondi/PS6/k49/stats.txt...
+[26.652715] Writing into graph file /projects/bgmp/tbiondi/PS6/k49/LastGraph...
+Final graph has 5758 nodes and n50 of 1112, max 5937, total 1494446, using 1973543/2567781 reads
+
+Command being timed: "velveth /projects/bgmp/tbiondi/PS6/k49 49 -fastq -shortPaired /projects/bgmp/shared/Bi621/800_3_PE5_interleaved.fq_1 /projects/bgmp/shared/Bi621/800_3_PE5_interleaved.fq_2 -short /projects/bgmp/shared/Bi621/800_3_PE5_interleaved.fq.unmatched"
+User time (seconds): 46.23
+System time (seconds): 1.19
+Percent of CPU this job got: 247%
+Elapsed (wall clock) time (h:mm:ss or m:ss): 0:19.14
+Average shared text size (kbytes): 0
+Average unshared data size (kbytes): 0
+Average stack size (kbytes): 0
+Average total size (kbytes): 0
+Maximum resident set size (kbytes): 1054728
+Average resident set size (kbytes): 0
+Major (requiring I/O) page faults: 0
+Minor (reclaiming a frame) page faults: 461848
+Voluntary context switches: 342
+Involuntary context switches: 643
+Swaps: 0
+File system inputs: 0
+File system outputs: 0
+Socket messages sent: 0
+Socket messages received: 0
+Signals delivered: 0
+Page size (bytes): 4096
+Exit status: 0
+Command being timed: "velvetg /projects/bgmp/tbiondi/PS6/k49 -exp_cov 36.9645555"
+User time (seconds): 57.63
+System time (seconds): 0.78
+Percent of CPU this job got: 214%
+Elapsed (wall clock) time (h:mm:ss or m:ss): 0:27.26
+Average shared text size (kbytes): 0
+Average unshared data size (kbytes): 0
+Average stack size (kbytes): 0
+Average total size (kbytes): 0
+Maximum resident set size (kbytes): 500768
+Average resident set size (kbytes): 0
+Major (requiring I/O) page faults: 0
+Minor (reclaiming a frame) page faults: 179307
+Voluntary context switches: 169
+Involuntary context switches: 64
+Swaps: 0
+File system inputs: 0
+File system outputs: 0
+Socket messages sent: 0
+Socket messages received: 0
+Signals delivered: 0
+Page size (bytes): 4096
+Exit status: 0
+
 Printing results for k = 49
 
 ********************
 Processed k49/contigs.fa
 
-There are 3228 contigs in this file.
-The maximum contig length is 5237 nt.
-The total length of this file is 1613916 nt.
-The mean contig length is approximately 499.97 nt.
-The mean depth of coverage is approximately 56.69x.
-The N50 for this dataset is 1059 nt.
+There are 3112 contigs in this file.
+The maximum contig length is 5985 nt.
+The total length of this file is 1606329 nt.
+The mean contig length is approximately 516.17 nt.
+The mean depth of coverage is approximately 56.79x.
+The N50 for this dataset is 1100 nt.
 ********************
 
 ***CONTIG DISTRIBUTION***
 Contig Length	Number of contigs in this category
-0	887
-100	586
+0	811
+100	567
 200	376
-300	248
-400	182
-500	131
-600	104
-700	105
-800	76
-900	57
-1000	58
-1100	60
-1200	48
-1300	43
-1400	32
-1500	24
-1600	24
-1700	21
-1800	17
-1900	24
-2000	8
+300	241
+400	191
+500	122
+600	100
+700	87
+800	71
+900	68
+1000	52
+1100	58
+1200	50
+1300	45
+1400	31
+1500	28
+1600	27
+1700	20
+1800	10
+1900	25
+2000	9
 2100	17
-2200	7
-2300	11
-2400	4
-2500	16
-2600	7
-2700	6
-2800	5
-2900	3
-3000	5
-3100	3
-3200	5
-3300	4
+2200	8
+2300	9
+2400	8
+2500	18
+2600	3
+2700	7
+2800	4
+2900	2
+3000	6
+3100	2
+3200	6
+3300	6
 3400	2
-3500	1
+3500	3
 3600	3
-3800	3
+3700	1
+3800	2
 3900	4
+4000	1
+4200	1
 4300	2
 4400	2
 4500	1
-4600	2
+4600	1
 4700	2
 5000	1
-5200	1
+5900	1
 [0.000000] Reading graph file /projects/bgmp/tbiondi/PS6/k49/Graph2
-[0.002340] Graph has 5918 nodes and 2567781 sequences
-[0.840971] Reading read set file /projects/bgmp/tbiondi/PS6/k49/Sequences;
-[1.188791] 2567781 sequences found
-[3.061169] Done
-[4.881534] Removing contigs with coverage < 20.000000...
-[4.888353] Concatenation...
-[4.926812] Renumbering nodes
-[4.926813] Initial node count 5918
-[4.926871] Removed 3808 null nodes
-[4.926872] Concatenation over!
-[4.926913] Concatenation...
-[4.926997] Renumbering nodes
-[4.926997] Initial node count 2110
-[4.926999] Removed 0 null nodes
-[4.926999] Concatenation over!
-[4.927005] Clipping short tips off graph, drastic
-[4.927241] Concatenation...
-[4.927736] Renumbering nodes
-[4.927736] Initial node count 2110
-[4.927772] Removed 87 null nodes
-[4.927772] Concatenation over!
-[4.927773] 2023 nodes left
-[4.927776] Read coherency...
-[4.927798] Identifying unique nodes
-[4.927834] Done, 650 unique nodes counted
-[4.927835] Trimming read tips
-[4.927893] Renumbering nodes
-[4.927893] Initial node count 2023
-[4.927895] Removed 0 null nodes
-[4.927895] Confronted to 0 multiple hits and 0 null over 0
-[4.927896] Read coherency over!
-[4.940546] Starting pebble resolution...
-[4.950897] Computing read to node mapping array sizes
-[5.016565] Computing read to node mappings
-[5.259079] Estimating library insert lengths...
-[5.270790] Done
-[5.270797] Computing direct node to node mappings
-[5.326133] Scaffolding node 0
-[5.383867]  === Nodes Scaffolded in 0.113068 s
-[5.390107] Preparing to correct graph with cutoff 0.200000
-[5.392486] Cleaning memory
-[5.392487] Deactivating local correction settings
-[5.392503] Pebble done.
-[5.392503] Starting pebble resolution...
-[5.401939] Computing read to node mapping array sizes
-[5.465257] Computing read to node mappings
-[5.712416] Estimating library insert lengths...
-[5.725455] Done
-[5.725463] Computing direct node to node mappings
-[5.781404] Scaffolding node 0
-[5.839802]  === Nodes Scaffolded in 0.114339 s
-[5.845740] Preparing to correct graph with cutoff 0.200000
-[5.848181] Cleaning memory
-[5.849445] Deactivating local correction settings
-[5.849465] Pebble done.
-[5.849466] Concatenation...
-[5.849539] Renumbering nodes
-[5.849539] Initial node count 2023
-[5.849542] Removed 0 null nodes
-[5.849551] Concatenation over!
-[5.849551] Removing reference contigs with coverage < 20.000000...
-[5.849630] Concatenation...
-[5.849696] Renumbering nodes
-[5.849696] Initial node count 2023
-[5.849698] Removed 0 null nodes
-[5.849707] Concatenation over!
-[5.861041] Writing contigs into /projects/bgmp/tbiondi/PS6/k49/contigs.fa...
-[6.270444] Writing into stats file /projects/bgmp/tbiondi/PS6/k49/stats.txt...
-[6.289553] Writing into graph file /projects/bgmp/tbiondi/PS6/k49/LastGraph...
-Final graph has 2023 nodes and n50 of 1821, max 10419, total 1070890, using 1867909/2567781 reads
+[0.000027] Graph has 5770 nodes and 2567781 sequences
+[0.667982] Reading read set file /projects/bgmp/tbiondi/PS6/k49/Sequences;
+[0.985707] 2567781 sequences found
+[2.578071] Done
+[4.122716] Removing contigs with coverage < 20.000000...
+[4.184737] Concatenation...
+[4.234204] Renumbering nodes
+[4.234208] Initial node count 5770
+[4.234283] Removed 3630 null nodes
+[4.234284] Concatenation over!
+[4.234313] Concatenation...
+[4.234412] Renumbering nodes
+[4.234413] Initial node count 2140
+[4.234414] Removed 0 null nodes
+[4.234414] Concatenation over!
+[4.234421] Clipping short tips off graph, drastic
+[4.234563] Concatenation...
+[4.235225] Renumbering nodes
+[4.235225] Initial node count 2140
+[4.235257] Removed 89 null nodes
+[4.235257] Concatenation over!
+[4.235258] 2051 nodes left
+[4.235261] Read coherency...
+[4.235271] Identifying unique nodes
+[4.235298] Done, 654 unique nodes counted
+[4.235298] Trimming read tips
+[4.235340] Renumbering nodes
+[4.235340] Initial node count 2051
+[4.235341] Removed 0 null nodes
+[4.235342] Confronted to 0 multiple hits and 0 null over 0
+[4.235342] Read coherency over!
+[4.246697] Starting pebble resolution...
+[4.256040] Computing read to node mapping array sizes
+[4.293449] Computing read to node mappings
+[4.383687] Estimating library insert lengths...
+[4.399685] Paired-end library 1 has length: 92, sample standard deviation: 167
+[4.399689] Done
+[4.399695] Computing direct node to node mappings
+[4.473679] Scaffolding node 0
+[4.477077]  === Nodes Scaffolded in 0.077381 s
+[4.487574] Preparing to correct graph with cutoff 0.200000
+[4.503479] Cleaning memory
+[4.503482] Deactivating local correction settings
+[4.503505] Pebble done.
+[4.503506] Starting pebble resolution...
+[4.512046] Computing read to node mapping array sizes
+[4.547251] Computing read to node mappings
+[4.637117] Estimating library insert lengths...
+[4.653044] Paired-end library 1 has length: 92, sample standard deviation: 167
+[4.653047] Done
+[4.653054] Computing direct node to node mappings
+[4.726502] Scaffolding node 0
+[4.729601]  === Nodes Scaffolded in 0.076547 s
+[4.739652] Preparing to correct graph with cutoff 0.200000
+[4.755129] Cleaning memory
+[4.755131] Deactivating local correction settings
+[4.755153] Pebble done.
+[4.755155] Concatenation...
+[4.755213] Renumbering nodes
+[4.755214] Initial node count 2051
+[4.755216] Removed 0 null nodes
+[4.755220] Concatenation over!
+[4.755220] Removing reference contigs with coverage < 20.000000...
+[4.755267] Concatenation...
+[4.755303] Renumbering nodes
+[4.755303] Initial node count 2051
+[4.755304] Removed 0 null nodes
+[4.755308] Concatenation over!
+[4.764065] Writing contigs into /projects/bgmp/tbiondi/PS6/k49/contigs.fa...
+[5.143001] Writing into stats file /projects/bgmp/tbiondi/PS6/k49/stats.txt...
+[5.161661] Writing into graph file /projects/bgmp/tbiondi/PS6/k49/LastGraph...
+Final graph has 2051 nodes and n50 of 1801, max 10357, total 1070743, using 1862146/2567781 reads
+
+Command being timed: "velvetg /projects/bgmp/tbiondi/PS6/k49 -cov_cutoff 20 -exp_cov 36.9645555"
+User time (seconds): 5.69
+System time (seconds): 0.61
+Percent of CPU this job got: 112%
+Elapsed (wall clock) time (h:mm:ss or m:ss): 0:05.58
+Average shared text size (kbytes): 0
+Average unshared data size (kbytes): 0
+Average stack size (kbytes): 0
+Average total size (kbytes): 0
+Maximum resident set size (kbytes): 512108
+Average resident set size (kbytes): 0
+Major (requiring I/O) page faults: 0
+Minor (reclaiming a frame) page faults: 215173
+Voluntary context switches: 79
+Involuntary context switches: 4
+Swaps: 0
+File system inputs: 0
+File system outputs: 0
+Socket messages sent: 0
+Socket messages received: 0
+Signals delivered: 0
+Page size (bytes): 4096
+Exit status: 0
+
 Printing results for k = 49, cov_cutoff = 20
 
 ********************
 Processed k49/contigs.fa
 
-There are 1223 contigs in this file.
-The maximum contig length is 10467 nt.
-The total length of this file is 1118570 nt.
-The mean contig length is approximately 914.61 nt.
-The mean depth of coverage is approximately 81.21x.
-The N50 for this dataset is 1818 nt.
+There are 1225 contigs in this file.
+The maximum contig length is 10405 nt.
+The total length of this file is 1118411 nt.
+The mean contig length is approximately 912.99 nt.
+The mean depth of coverage is approximately 80.7x.
+The N50 for this dataset is 1804 nt.
 ********************
 
 ***CONTIG DISTRIBUTION***
 Contig Length	Number of contigs in this category
-0	62
-100	240
-200	167
-300	96
-400	82
-500	55
-600	38
+0	56
+100	253
+200	161
+300	97
+400	86
+500	50
+600	33
 700	38
 800	39
-900	33
-1000	24
-1100	27
-1200	27
-1300	33
-1400	25
-1500	17
-1600	13
-1700	18
-1800	17
-1900	20
-2000	10
+900	34
+1000	26
+1100	29
+1200	29
+1300	32
+1400	23
+1500	20
+1600	16
+1700	16
+1800	18
+1900	17
+2000	11
 2100	19
-2200	3
-2300	11
+2200	4
+2300	10
 2400	8
 2500	9
 2600	5
 2700	6
-2800	8
-2900	7
+2800	7
+2900	8
 3000	4
 3100	6
 3200	4
@@ -819,7 +1001,7 @@ Contig Length	Number of contigs in this category
 3500	3
 3600	4
 3800	1
-3900	4
+3900	3
 4000	2
 4100	1
 4200	1
@@ -841,261 +1023,313 @@ Contig Length	Number of contigs in this category
 8700	1
 10400	1
 [0.000000] Reading graph file /projects/bgmp/tbiondi/PS6/k49/Graph2
-[0.000031] Graph has 5918 nodes and 2567781 sequences
-[0.824426] Reading read set file /projects/bgmp/tbiondi/PS6/k49/Sequences;
-[1.194285] 2567781 sequences found
-[3.175618] Done
-[5.007100] Removing contigs with coverage < 60.000000...
-[5.031288] Concatenation...
-[5.065075] Renumbering nodes
-[5.065078] Initial node count 5918
-[5.065136] Removed 4980 null nodes
-[5.065137] Concatenation over!
-[5.065159] Concatenation...
-[5.065186] Renumbering nodes
-[5.065187] Initial node count 938
-[5.065188] Removed 0 null nodes
-[5.065188] Concatenation over!
-[5.065195] Clipping short tips off graph, drastic
-[5.065576] Concatenation...
-[5.066466] Renumbering nodes
-[5.066467] Initial node count 938
-[5.066483] Removed 254 null nodes
-[5.066483] Concatenation over!
-[5.066483] 684 nodes left
-[5.066487] Read coherency...
-[5.066492] Identifying unique nodes
-[5.066504] Done, 0 unique nodes counted
-[5.066504] Trimming read tips
-[5.066511] Renumbering nodes
-[5.066511] Initial node count 684
-[5.066512] Removed 0 null nodes
-[5.066512] Confronted to 0 multiple hits and 0 null over 0
-[5.066513] Read coherency over!
-[5.087152] Starting pebble resolution...
-[5.097733] Computing read to node mapping array sizes
-[5.147837] Computing read to node mappings
-[5.271050] Estimating library insert lengths...
-[5.282894] Done
-[5.282900] Computing direct node to node mappings
-[5.282940] Scaffolding node 0
-[5.282955]  === Nodes Scaffolded in 0.000054 s
-[5.283513] Preparing to correct graph with cutoff 0.200000
-[5.283612] Cleaning memory
-[5.283613] Deactivating local correction settings
-[5.283620] Pebble done.
-[5.283621] Starting pebble resolution...
-[5.292765] Computing read to node mapping array sizes
-[5.341801] Computing read to node mappings
-[5.473180] Estimating library insert lengths...
-[5.485251] Done
-[5.485256] Computing direct node to node mappings
-[5.485281] Scaffolding node 0
-[5.485293]  === Nodes Scaffolded in 0.000036 s
-[5.485866] Preparing to correct graph with cutoff 0.200000
-[5.485959] Cleaning memory
-[5.485960] Deactivating local correction settings
-[5.485967] Pebble done.
-[5.485968] Concatenation...
-[5.486011] Renumbering nodes
-[5.486012] Initial node count 684
-[5.486013] Removed 0 null nodes
-[5.486016] Concatenation over!
-[5.486016] Removing reference contigs with coverage < 60.000000...
-[5.486036] Concatenation...
-[5.486051] Renumbering nodes
-[5.486051] Initial node count 684
-[5.486052] Removed 0 null nodes
-[5.486054] Concatenation over!
-[5.495482] Writing contigs into /projects/bgmp/tbiondi/PS6/k49/contigs.fa...
-[5.720945] Writing into stats file /projects/bgmp/tbiondi/PS6/k49/stats.txt...
-[5.731731] Writing into graph file /projects/bgmp/tbiondi/PS6/k49/LastGraph...
-Final graph has 684 nodes and n50 of 2057, max 7220, total 382830, using 1136854/2567781 reads
+[0.000033] Graph has 5770 nodes and 2567781 sequences
+[0.675157] Reading read set file /projects/bgmp/tbiondi/PS6/k49/Sequences;
+[0.995128] 2567781 sequences found
+[2.559095] Done
+[4.104364] Removing contigs with coverage < 60.000000...
+[4.189614] Concatenation...
+[4.217206] Renumbering nodes
+[4.217209] Initial node count 5770
+[4.217254] Removed 4830 null nodes
+[4.217255] Concatenation over!
+[4.217267] Concatenation...
+[4.217305] Renumbering nodes
+[4.217305] Initial node count 940
+[4.217306] Removed 0 null nodes
+[4.217307] Concatenation over!
+[4.217314] Clipping short tips off graph, drastic
+[4.217614] Concatenation...
+[4.218300] Renumbering nodes
+[4.218301] Initial node count 940
+[4.218314] Removed 251 null nodes
+[4.218314] Concatenation over!
+[4.218314] 689 nodes left
+[4.218318] Read coherency...
+[4.218321] Identifying unique nodes
+[4.218331] Done, 0 unique nodes counted
+[4.218332] Trimming read tips
+[4.218339] Renumbering nodes
+[4.218339] Initial node count 689
+[4.218340] Removed 0 null nodes
+[4.218340] Confronted to 0 multiple hits and 0 null over 0
+[4.218341] Read coherency over!
+[4.236431] Starting pebble resolution...
+[4.246211] Computing read to node mapping array sizes
+[4.275781] Computing read to node mappings
+[4.324316] Estimating library insert lengths...
+[4.339714] Paired-end library 1 has length: 75, sample standard deviation: 145
+[4.339717] Done
+[4.339721] Computing direct node to node mappings
+[4.339838] Scaffolding node 0
+[4.339845]  === Nodes Scaffolded in 0.000124 s
+[4.340323] Preparing to correct graph with cutoff 0.200000
+[4.340382] Cleaning memory
+[4.340383] Deactivating local correction settings
+[4.340390] Pebble done.
+[4.340391] Starting pebble resolution...
+[4.348710] Computing read to node mapping array sizes
+[4.377462] Computing read to node mappings
+[4.425711] Estimating library insert lengths...
+[4.440992] Paired-end library 1 has length: 75, sample standard deviation: 145
+[4.440995] Done
+[4.440998] Computing direct node to node mappings
+[4.441097] Scaffolding node 0
+[4.441106]  === Nodes Scaffolded in 0.000107 s
+[4.441601] Preparing to correct graph with cutoff 0.200000
+[4.441670] Cleaning memory
+[4.441670] Deactivating local correction settings
+[4.441678] Pebble done.
+[4.441679] Concatenation...
+[4.441735] Renumbering nodes
+[4.441736] Initial node count 689
+[4.441737] Removed 0 null nodes
+[4.441739] Concatenation over!
+[4.441739] Removing reference contigs with coverage < 60.000000...
+[4.441757] Concatenation...
+[4.441769] Renumbering nodes
+[4.441769] Initial node count 689
+[4.441770] Removed 0 null nodes
+[4.441771] Concatenation over!
+[4.449996] Writing contigs into /projects/bgmp/tbiondi/PS6/k49/contigs.fa...
+[4.672864] Writing into stats file /projects/bgmp/tbiondi/PS6/k49/stats.txt...
+[4.683862] Writing into graph file /projects/bgmp/tbiondi/PS6/k49/LastGraph...
+Final graph has 689 nodes and n50 of 1942, max 7220, total 376726, using 1116082/2567781 reads
+
+Command being timed: "velvetg /projects/bgmp/tbiondi/PS6/k49 -cov_cutoff 60 -exp_cov 36.9645555"
+User time (seconds): 4.63
+System time (seconds): 0.61
+Percent of CPU this job got: 106%
+Elapsed (wall clock) time (h:mm:ss or m:ss): 0:04.92
+Average shared text size (kbytes): 0
+Average unshared data size (kbytes): 0
+Average stack size (kbytes): 0
+Average total size (kbytes): 0
+Maximum resident set size (kbytes): 512108
+Average resident set size (kbytes): 0
+Major (requiring I/O) page faults: 0
+Minor (reclaiming a frame) page faults: 211590
+Voluntary context switches: 57
+Involuntary context switches: 4
+Swaps: 0
+File system inputs: 0
+File system outputs: 0
+Socket messages sent: 0
+Socket messages received: 0
+Signals delivered: 0
+Page size (bytes): 4096
+Exit status: 0
+
 Printing results for k = 49, cov_cutoff = 60
 
 ********************
 Processed k49/contigs.fa
 
-There are 418 contigs in this file.
+There are 415 contigs in this file.
 The maximum contig length is 7268 nt.
-The total length of this file is 398983 nt.
-The mean contig length is approximately 954.5 nt.
-The mean depth of coverage is approximately 165.74x.
-The N50 for this dataset is 2044 nt.
+The total length of this file is 392707 nt.
+The mean contig length is approximately 946.28 nt.
+The mean depth of coverage is approximately 168.03x.
+The N50 for this dataset is 1925 nt.
 ********************
 
 ***CONTIG DISTRIBUTION***
 Contig Length	Number of contigs in this category
-0	23
+0	22
 100	91
-200	42
-300	32
-400	31
-500	20
-600	15
-700	15
+200	39
+300	29
+400	29
+500	21
+600	18
+700	17
 800	16
-900	7
-1000	7
+900	8
+1000	6
 1100	9
-1200	13
-1300	6
-1400	8
-1500	4
-1600	4
-1700	7
-1800	6
-1900	2
+1200	15
+1300	5
+1400	7
+1500	5
+1600	6
+1700	6
+1800	5
+1900	4
 2000	2
 2100	9
-2200	1
-2300	3
-2400	3
-2500	4
+2200	2
+2300	2
+2400	4
+2500	3
 2600	2
 2700	1
-2800	4
-2900	2
-3100	2
-3200	3
-3300	2
+2800	3
+2900	3
+3100	1
+3200	4
+3300	1
 3400	2
 3500	1
 3600	2
-3800	1
 3900	1
 4100	1
 4200	2
-4300	1
 4400	2
 4500	1
 4700	1
 4800	1
+5000	1
 5200	1
-5400	1
 6200	1
 6300	1
 7100	1
 7200	1
 [0.000000] Reading graph file /projects/bgmp/tbiondi/PS6/k49/Graph2
-[0.000032] Graph has 5918 nodes and 2567781 sequences
-[0.853301] Measuring median coverage depth...
-[0.854912] Median coverage depth = 33.752161
-[0.854985] Reading read set file /projects/bgmp/tbiondi/PS6/k49/Sequences;
-[1.224822] 2567781 sequences found
-[3.133652] Done
-[4.990965] Removing contigs with coverage < 16.876081...
-[4.996877] Concatenation...
-[5.037655] Renumbering nodes
-[5.037656] Initial node count 5918
-[5.037718] Removed 3662 null nodes
-[5.037719] Concatenation over!
-[5.037763] Concatenation...
-[5.037845] Renumbering nodes
-[5.037845] Initial node count 2256
-[5.037848] Removed 0 null nodes
-[5.037848] Concatenation over!
-[5.037854] Clipping short tips off graph, drastic
-[5.038121] Concatenation...
-[5.038698] Renumbering nodes
-[5.038699] Initial node count 2256
-[5.038735] Removed 89 null nodes
-[5.038736] Concatenation over!
-[5.038736] 2167 nodes left
-[5.038741] Read coherency...
-[5.038765] Identifying unique nodes
-[5.038803] Done, 750 unique nodes counted
-[5.038804] Trimming read tips
-[5.038873] Renumbering nodes
-[5.038874] Initial node count 2167
-[5.038876] Removed 0 null nodes
-[5.038876] Confronted to 0 multiple hits and 0 null over 0
-[5.038877] Read coherency over!
-[5.051405] Starting pebble resolution...
-[5.062069] Computing read to node mapping array sizes
-[5.128841] Computing read to node mappings
-[5.388207] Estimating library insert lengths...
-[5.400419] Done
-[5.400427] Computing direct node to node mappings
-[5.461495] Scaffolding node 0
-[5.525197]  === Nodes Scaffolded in 0.124770 s
-[5.531691] Preparing to correct graph with cutoff 0.200000
-[5.534493] Cleaning memory
-[5.534496] Deactivating local correction settings
-[5.534514] Pebble done.
-[5.534515] Starting pebble resolution...
-[5.544904] Computing read to node mapping array sizes
-[5.610400] Computing read to node mappings
-[5.873282] Estimating library insert lengths...
-[5.886221] Done
-[5.886229] Computing direct node to node mappings
-[5.948966] Scaffolding node 0
-[6.013898]  === Nodes Scaffolded in 0.127669 s
-[6.020284] Preparing to correct graph with cutoff 0.200000
-[6.023047] Cleaning memory
-[6.024230] Deactivating local correction settings
-[6.024250] Pebble done.
-[6.024251] Concatenation...
-[6.024330] Renumbering nodes
-[6.024330] Initial node count 2167
-[6.024333] Removed 0 null nodes
-[6.024343] Concatenation over!
-[6.024344] Removing reference contigs with coverage < 16.876081...
-[6.024417] Concatenation...
-[6.024488] Renumbering nodes
-[6.024489] Initial node count 2167
-[6.024491] Removed 0 null nodes
-[6.024501] Concatenation over!
-[6.035626] Writing contigs into /projects/bgmp/tbiondi/PS6/k49/contigs.fa...
-[6.474616] Writing into stats file /projects/bgmp/tbiondi/PS6/k49/stats.txt...
-[6.494330] Writing into graph file /projects/bgmp/tbiondi/PS6/k49/LastGraph...
-[7.007451] Estimated Coverage cutoff = 16.876081
-Final graph has 2167 nodes and n50 of 1774, max 10419, total 1143128, using 1904165/2567781 reads
+[0.000031] Graph has 5770 nodes and 2567781 sequences
+[0.673766] Measuring median coverage depth...
+[0.675108] Median coverage depth = 33.683066
+[0.675172] Reading read set file /projects/bgmp/tbiondi/PS6/k49/Sequences;
+[1.005717] 2567781 sequences found
+[2.618146] Done
+[4.258007] Removing contigs with coverage < 16.841533...
+[4.261939] Concatenation...
+[4.294897] Renumbering nodes
+[4.294900] Initial node count 5770
+[4.294981] Removed 3488 null nodes
+[4.294982] Concatenation over!
+[4.295014] Concatenation...
+[4.295115] Renumbering nodes
+[4.295116] Initial node count 2282
+[4.295118] Removed 0 null nodes
+[4.295118] Concatenation over!
+[4.295123] Clipping short tips off graph, drastic
+[4.295282] Concatenation...
+[4.296028] Renumbering nodes
+[4.296028] Initial node count 2282
+[4.296063] Removed 92 null nodes
+[4.296063] Concatenation over!
+[4.296063] 2190 nodes left
+[4.296067] Read coherency...
+[4.296077] Identifying unique nodes
+[4.296105] Done, 752 unique nodes counted
+[4.296106] Trimming read tips
+[4.296156] Renumbering nodes
+[4.296156] Initial node count 2190
+[4.296158] Removed 0 null nodes
+[4.296158] Confronted to 0 multiple hits and 0 null over 0
+[4.296159] Read coherency over!
+[4.307252] Starting pebble resolution...
+[4.316768] Computing read to node mapping array sizes
+[4.351823] Computing read to node mappings
+[4.441455] Estimating library insert lengths...
+[4.457877] Paired-end library 1 has length: 95, sample standard deviation: 171
+[4.457880] Done
+[4.457886] Computing direct node to node mappings
+[4.538402] Scaffolding node 0
+[4.541902]  === Nodes Scaffolded in 0.084016 s
+[4.553204] Preparing to correct graph with cutoff 0.200000
+[4.571074] Cleaning memory
+[4.571076] Deactivating local correction settings
+[4.571100] Pebble done.
+[4.571101] Starting pebble resolution...
+[4.579567] Computing read to node mapping array sizes
+[4.612330] Computing read to node mappings
+[4.704724] Estimating library insert lengths...
+[4.721253] Paired-end library 1 has length: 95, sample standard deviation: 171
+[4.721256] Done
+[4.721262] Computing direct node to node mappings
+[4.801817] Scaffolding node 0
+[4.805263]  === Nodes Scaffolded in 0.084001 s
+[4.816055] Preparing to correct graph with cutoff 0.200000
+[4.833638] Cleaning memory
+[4.834573] Deactivating local correction settings
+[4.834608] Pebble done.
+[4.834609] Concatenation...
+[4.834694] Renumbering nodes
+[4.834695] Initial node count 2190
+[4.834697] Removed 0 null nodes
+[4.834701] Concatenation over!
+[4.834702] Removing reference contigs with coverage < 16.841533...
+[4.834755] Concatenation...
+[4.834796] Renumbering nodes
+[4.834796] Initial node count 2190
+[4.834798] Removed 0 null nodes
+[4.834802] Concatenation over!
+[4.843332] Writing contigs into /projects/bgmp/tbiondi/PS6/k49/contigs.fa...
+[5.238349] Writing into stats file /projects/bgmp/tbiondi/PS6/k49/stats.txt...
+[5.257007] Writing into graph file /projects/bgmp/tbiondi/PS6/k49/LastGraph...
+[5.676925] Estimated Coverage cutoff = 16.841533
+Final graph has 2190 nodes and n50 of 1779, max 10357, total 1142644, using 1899790/2567781 reads
+
+Command being timed: "velvetg /projects/bgmp/tbiondi/PS6/k49 -cov_cutoff auto -exp_cov 36.9645555"
+User time (seconds): 5.82
+System time (seconds): 0.62
+Percent of CPU this job got: 113%
+Elapsed (wall clock) time (h:mm:ss or m:ss): 0:05.69
+Average shared text size (kbytes): 0
+Average unshared data size (kbytes): 0
+Average stack size (kbytes): 0
+Average total size (kbytes): 0
+Maximum resident set size (kbytes): 512152
+Average resident set size (kbytes): 0
+Major (requiring I/O) page faults: 0
+Minor (reclaiming a frame) page faults: 215545
+Voluntary context switches: 75
+Involuntary context switches: 13
+Swaps: 0
+File system inputs: 0
+File system outputs: 0
+Socket messages sent: 0
+Socket messages received: 0
+Signals delivered: 0
+Page size (bytes): 4096
+Exit status: 0
+
 Printing results for k = 49, cov_cutoff = auto
 
 ********************
 Processed k49/contigs.fa
 
-There are 1333 contigs in this file.
-The maximum contig length is 10467 nt.
-The total length of this file is 1195666 nt.
-The mean contig length is approximately 896.97 nt.
-The mean depth of coverage is approximately 75.64x.
+There are 1329 contigs in this file.
+The maximum contig length is 10405 nt.
+The total length of this file is 1194865 nt.
+The mean contig length is approximately 899.07 nt.
+The mean depth of coverage is approximately 76.29x.
 The N50 for this dataset is 1796 nt.
 ********************
 
 ***CONTIG DISTRIBUTION***
 Contig Length	Number of contigs in this category
-0	67
-100	267
-200	183
+0	58
+100	279
+200	177
 300	99
-400	89
-500	60
-600	43
-700	45
-800	43
+400	93
+500	56
+600	39
+700	47
+800	42
 900	36
-1000	27
+1000	28
 1100	30
-1200	32
+1200	33
 1300	35
-1400	27
-1500	18
-1600	17
-1700	15
-1800	18
-1900	22
+1400	26
+1500	20
+1600	18
+1700	13
+1800	20
+1900	20
 2000	11
 2100	20
-2200	5
-2300	11
+2200	6
+2300	10
 2400	8
 2500	12
 2600	4
 2700	6
-2800	9
-2900	7
+2800	8
+2900	8
 3000	6
 3100	6
 3200	4
@@ -1126,119 +1360,146 @@ Contig Length	Number of contigs in this category
 8700	1
 10400	1
 [0.000000] Reading graph file /projects/bgmp/tbiondi/PS6/k49/Graph2
-[0.000030] Graph has 5918 nodes and 2567781 sequences
-[0.813328] Measuring median coverage depth...
-[0.814887] Median coverage depth = 33.752161
-[0.814957] Reading read set file /projects/bgmp/tbiondi/PS6/k49/Sequences;
-[1.166820] 2567781 sequences found
-[3.041833] Done
-[4.899743] Removing contigs with coverage < 16.876081...
-[4.905521] Concatenation...
-[4.943977] Renumbering nodes
-[4.943979] Initial node count 5918
-[4.944035] Removed 3662 null nodes
-[4.944036] Concatenation over!
-[4.944077] Concatenation...
-[4.944148] Renumbering nodes
-[4.944148] Initial node count 2256
-[4.944150] Removed 0 null nodes
-[4.944150] Concatenation over!
-[4.944156] Clipping short tips off graph, drastic
-[4.944415] Concatenation...
-[4.944956] Renumbering nodes
-[4.944956] Initial node count 2256
-[4.944991] Removed 89 null nodes
-[4.944991] Concatenation over!
-[4.944992] 2167 nodes left
-[4.944997] Read coherency...
-[4.945019] Identifying unique nodes
-[4.945056] Done, 750 unique nodes counted
-[4.945057] Trimming read tips
-[4.945117] Renumbering nodes
-[4.945118] Initial node count 2167
-[4.945120] Removed 0 null nodes
-[4.945120] Confronted to 0 multiple hits and 0 null over 0
-[4.945121] Read coherency over!
-[4.957449] Starting pebble resolution...
-[4.967794] Computing read to node mapping array sizes
-[5.034329] Computing read to node mappings
-[5.283116] Estimating library insert lengths...
-[5.295548] Done
-[5.295557] Computing direct node to node mappings
-[5.355820] Scaffolding node 0
-[5.418407]  === Nodes Scaffolded in 0.122850 s
-[5.424735] Preparing to correct graph with cutoff 0.200000
-[5.427327] Cleaning memory
-[5.427329] Deactivating local correction settings
-[5.427345] Pebble done.
-[5.427346] Starting pebble resolution...
-[5.437300] Computing read to node mapping array sizes
-[5.502470] Computing read to node mappings
-[5.763635] Estimating library insert lengths...
-[5.777034] Done
-[5.777042] Computing direct node to node mappings
-[5.839214] Scaffolding node 0
-[5.902885]  === Nodes Scaffolded in 0.125843 s
-[5.909250] Preparing to correct graph with cutoff 0.200000
-[5.912023] Cleaning memory
-[5.913211] Deactivating local correction settings
-[5.913231] Pebble done.
-[5.913232] Concatenation...
-[5.913311] Renumbering nodes
-[5.913311] Initial node count 2167
-[5.913314] Removed 0 null nodes
-[5.913324] Concatenation over!
-[5.913324] Removing reference contigs with coverage < 16.876081...
-[5.913404] Concatenation...
-[5.913476] Renumbering nodes
-[5.913476] Initial node count 2167
-[5.913478] Removed 0 null nodes
-[5.913488] Concatenation over!
-[5.925261] Writing contigs into /projects/bgmp/tbiondi/PS6/k49/contigs.fa...
-[6.308775] Writing into stats file /projects/bgmp/tbiondi/PS6/k49/stats.txt...
-[6.328227] Writing into graph file /projects/bgmp/tbiondi/PS6/k49/LastGraph...
-[6.872755] Estimated Coverage cutoff = 16.876081
-Final graph has 2167 nodes and n50 of 1774, max 10419, total 1143128, using 1648952/2567781 reads
+[0.000038] Graph has 5770 nodes and 2567781 sequences
+[0.674183] Measuring median coverage depth...
+[0.675549] Median coverage depth = 33.683066
+[0.675607] Reading read set file /projects/bgmp/tbiondi/PS6/k49/Sequences;
+[1.000028] 2567781 sequences found
+[2.586884] Done
+[4.212156] Removing contigs with coverage < 16.841533...
+[4.216087] Concatenation...
+[4.248823] Renumbering nodes
+[4.248826] Initial node count 5770
+[4.248906] Removed 3488 null nodes
+[4.248907] Concatenation over!
+[4.248939] Concatenation...
+[4.249040] Renumbering nodes
+[4.249041] Initial node count 2282
+[4.249042] Removed 0 null nodes
+[4.249043] Concatenation over!
+[4.249048] Clipping short tips off graph, drastic
+[4.249200] Concatenation...
+[4.249955] Renumbering nodes
+[4.249955] Initial node count 2282
+[4.249989] Removed 92 null nodes
+[4.249989] Concatenation over!
+[4.249989] 2190 nodes left
+[4.249992] Read coherency...
+[4.250003] Identifying unique nodes
+[4.250031] Done, 752 unique nodes counted
+[4.250032] Trimming read tips
+[4.250078] Renumbering nodes
+[4.250078] Initial node count 2190
+[4.250080] Removed 0 null nodes
+[4.250080] Confronted to 0 multiple hits and 0 null over 0
+[4.250081] Read coherency over!
+[4.261083] Starting pebble resolution...
+[4.270391] Computing read to node mapping array sizes
+[4.305281] Computing read to node mappings
+[4.394967] Estimating library insert lengths...
+[4.410947] Paired-end library 1 has length: 95, sample standard deviation: 171
+[4.410950] Done
+[4.410955] Computing direct node to node mappings
+[4.491551] Scaffolding node 0
+[4.495376]  === Nodes Scaffolded in 0.084420 s
+[4.506086] Preparing to correct graph with cutoff 0.200000
+[4.523553] Cleaning memory
+[4.523555] Deactivating local correction settings
+[4.523579] Pebble done.
+[4.523580] Starting pebble resolution...
+[4.532079] Computing read to node mapping array sizes
+[4.565122] Computing read to node mappings
+[4.658064] Estimating library insert lengths...
+[4.674028] Paired-end library 1 has length: 95, sample standard deviation: 171
+[4.674031] Done
+[4.674037] Computing direct node to node mappings
+[4.754671] Scaffolding node 0
+[4.758200]  === Nodes Scaffolded in 0.084163 s
+[4.768777] Preparing to correct graph with cutoff 0.200000
+[4.785963] Cleaning memory
+[4.786889] Deactivating local correction settings
+[4.786925] Pebble done.
+[4.786927] Concatenation...
+[4.787012] Renumbering nodes
+[4.787013] Initial node count 2190
+[4.787015] Removed 0 null nodes
+[4.787020] Concatenation over!
+[4.787020] Removing reference contigs with coverage < 16.841533...
+[4.787073] Concatenation...
+[4.787114] Renumbering nodes
+[4.787114] Initial node count 2190
+[4.787116] Removed 0 null nodes
+[4.787120] Concatenation over!
+[4.796504] Writing contigs into /projects/bgmp/tbiondi/PS6/k49/contigs.fa...
+[5.133973] Writing into stats file /projects/bgmp/tbiondi/PS6/k49/stats.txt...
+[5.152594] Writing into graph file /projects/bgmp/tbiondi/PS6/k49/LastGraph...
+[5.567683] Estimated Coverage cutoff = 16.841533
+Final graph has 2190 nodes and n50 of 1779, max 10357, total 1142644, using 1645879/2567781 reads
+
+Command being timed: "velvetg /projects/bgmp/tbiondi/PS6/k49 -min_contig_lgth 500 -cov_cutoff auto -exp_cov 36.9645555"
+User time (seconds): 5.71
+System time (seconds): 0.62
+Percent of CPU this job got: 113%
+Elapsed (wall clock) time (h:mm:ss or m:ss): 0:05.60
+Average shared text size (kbytes): 0
+Average unshared data size (kbytes): 0
+Average stack size (kbytes): 0
+Average total size (kbytes): 0
+Maximum resident set size (kbytes): 512164
+Average resident set size (kbytes): 0
+Major (requiring I/O) page faults: 0
+Minor (reclaiming a frame) page faults: 215543
+Voluntary context switches: 77
+Involuntary context switches: 6
+Swaps: 0
+File system inputs: 0
+File system outputs: 0
+Socket messages sent: 0
+Socket messages received: 0
+Signals delivered: 0
+Page size (bytes): 4096
+Exit status: 0
+
 Printing results for k = 49, cov_cutoff = auto, and min_contig_length = 500
 
 ********************
 Processed k49/contigs.fa
 
-There are 628 contigs in this file.
-The maximum contig length is 10467 nt.
-The total length of this file is 1030708 nt.
-The mean contig length is approximately 1641.25 nt.
-The mean depth of coverage is approximately 51.9x.
+There are 623 contigs in this file.
+The maximum contig length is 10405 nt.
+The total length of this file is 1028834 nt.
+The mean contig length is approximately 1651.42 nt.
+The mean depth of coverage is approximately 51.76x.
 The N50 for this dataset is 2013 nt.
 ********************
 
 ***CONTIG DISTRIBUTION***
 Contig Length	Number of contigs in this category
-500	60
-600	43
-700	45
-800	43
+500	56
+600	39
+700	47
+800	42
 900	36
-1000	27
+1000	28
 1100	30
-1200	32
+1200	33
 1300	35
-1400	27
-1500	18
-1600	17
-1700	15
-1800	18
-1900	22
+1400	26
+1500	20
+1600	18
+1700	13
+1800	20
+1900	20
 2000	11
 2100	20
-2200	5
-2300	11
+2200	6
+2300	10
 2400	8
 2500	12
 2600	4
 2700	6
-2800	9
-2900	7
+2800	8
+2900	8
 3000	6
 3100	6
 3200	4
