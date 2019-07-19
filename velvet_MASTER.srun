@@ -6,7 +6,10 @@
 #SBATCH --time=0-6:00:00
 #SBATCH --nodes=1
 #SBATCH --ntasks-per-node=1
-#SBATCH --cpus-per-task=1
+#SBATCH --cpus-per-task=4
+
+
+#-ins_length 76.79104993766992
 
 conda activate bgmp_py3
 
@@ -14,32 +17,32 @@ echo "Printing results for unit test."
 python3 part1_ps6.py -k 49 -f Unit_test.fa
 
 /usr/bin/time -v velveth /projects/bgmp/tbiondi/PS6/k31 31 -fastq -shortPaired /projects/bgmp/shared/Bi621/800_3_PE5_interleaved.fq_1 /projects/bgmp/shared/Bi621/800_3_PE5_interleaved.fq_2 -short /projects/bgmp/shared/Bi621/800_3_PE5_interleaved.fq.unmatched
-/usr/bin/time -v velvetg /projects/bgmp/tbiondi/PS6/k31 -ins_length 76.79104993766992 -exp_cov 60.0745845
+/usr/bin/time -v velvetg /projects/bgmp/tbiondi/PS6/k31 -exp_cov 60.0745845
 echo "Printing results for k = 31"
 python3 part1_ps6.py -k 31 -f k31/contigs.fa
 
 /usr/bin/time -v velveth /projects/bgmp/tbiondi/PS6/k41 41 -fastq -shortPaired /projects/bgmp/shared/Bi621/800_3_PE5_interleaved.fq_1 /projects/bgmp/shared/Bi621/800_3_PE5_interleaved.fq_2 -short /projects/bgmp/shared/Bi621/800_3_PE5_interleaved.fq.unmatched
-/usr/bin/time -v velvetg /projects/bgmp/tbiondi/PS6/k41 -ins_length 76.79104993766992 -exp_cov 47.2356795
+/usr/bin/time -v velvetg /projects/bgmp/tbiondi/PS6/k41 -exp_cov 47.2356795
 echo "Printing results for k = 41"
 python3 part1_ps6.py -k 41 -f k41/contigs.fa
 
 /usr/bin/time -v velveth /projects/bgmp/tbiondi/PS6/k49 49 -fastq -shortPaired /projects/bgmp/shared/Bi621/800_3_PE5_interleaved.fq_1 /projects/bgmp/shared/Bi621/800_3_PE5_interleaved.fq_2 -short /projects/bgmp/shared/Bi621/800_3_PE5_interleaved.fq.unmatched
-/usr/bin/time -v velvetg /projects/bgmp/tbiondi/PS6/k49 -ins_length 76.79104993766992 -exp_cov 36.9645555
+/usr/bin/time -v velvetg /projects/bgmp/tbiondi/PS6/k49 -exp_cov 36.9645555
 echo "Printing results for k = 49"
 python3 part1_ps6.py -k 49 -f k49/contigs.fa
 
-/usr/bin/time -v velvetg /projects/bgmp/tbiondi/PS6/k49 -cov_cutoff 20 -ins_length 76.79104993766992 -exp_cov 36.9645555
+/usr/bin/time -v velvetg /projects/bgmp/tbiondi/PS6/k49 -cov_cutoff 20 -exp_cov 36.9645555
 echo "Printing results for k = 49, cov_cutoff = 20"
 python3 part1_ps6.py -k 49 -f k49/contigs.fa
 
-/usr/bin/time -v velvetg /projects/bgmp/tbiondi/PS6/k49 -cov_cutoff 60 -ins_length 76.79104993766992 -exp_cov 36.9645555
+/usr/bin/time -v velvetg /projects/bgmp/tbiondi/PS6/k49 -cov_cutoff 60 -exp_cov 36.9645555
 echo "Printing results for k = 49, cov_cutoff = 60"
 python3 part1_ps6.py -k 49 -f k49/contigs.fa
 
-/usr/bin/time -v velvetg /projects/bgmp/tbiondi/PS6/k49 -cov_cutoff auto -ins_length 76.79104993766992 -exp_cov 36.9645555
+/usr/bin/time -v velvetg /projects/bgmp/tbiondi/PS6/k49 -cov_cutoff auto -exp_cov 36.9645555
 echo "Printing results for k = 49, cov_cutoff = auto"
 python3 part1_ps6.py -k 49 -f k49/contigs.fa
 
-/usr/bin/time -v velvetg /projects/bgmp/tbiondi/PS6/k49 -min_contig_lgth 500 -cov_cutoff auto -ins_length 76.79104993766992 -exp_cov 36.9645555
+/usr/bin/time -v velvetg /projects/bgmp/tbiondi/PS6/k49 -min_contig_lgth 500 -cov_cutoff auto -exp_cov 36.9645555
 echo "Printing results for k = 49, cov_cutoff = auto, and min_contig_length = 500"
 python3 part1_ps6.py -k 49 -f k49/contigs.fa
